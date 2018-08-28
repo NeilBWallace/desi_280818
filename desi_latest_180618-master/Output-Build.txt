@@ -1,0 +1,55 @@
+﻿1>------ Build started: Project: Assembly-CSharp, Configuration: Debug Any CPU ------
+1>C:\desi_x\Assets\Scripts\EnemyController.cs(4,7,4,25): warning CS0105: The using directive for 'System.Collections' appeared previously in this namespace
+1>C:\desi_x\Assets\Scripts\ItemPickup.cs(9,13,9,17): warning CS0108: 'ItemPickup.name' hides inherited member 'Object.name'. Use the new keyword if hiding was intended.
+1>C:\desi_x\Assets\Next.cs(152,32,152,33): warning CS0168: The variable 'e' is declared but never used
+1>C:\desi_x\Assets\Scripts\back.cs(30,13,30,40): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+1>C:\desi_x\Assets\Scripts\back.cs(44,17,44,44): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+1>C:\desi_x\Assets\Scripts\back.cs(49,29,49,56): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+1>C:\desi_x\Assets\Scripts\back.cs(50,17,50,44): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+1>C:\desi_x\Assets\Scripts\back.cs(19,22,19,26): warning CS0168: The variable 'objs' is declared but never used
+1>C:\desi_x\Assets\Scripts\Managers\GameOverManager.cs(33,21,33,48): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+1>C:\desi_x\Assets\Scripts\Managers\GameOverManager.cs(38,21,38,48): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+1>C:\desi_x\Assets\Scripts\Managers\GameOverManager.cs(45,17,45,44): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+1>C:\desi_x\Assets\JSONObject\VectorTemplates.cs(223,35,223,48): warning CS0618: 'Keyframe.tangentMode' is obsolete: 'Use AnimationUtility.SetLeftTangentMode, AnimationUtility.SetRightTangentMode, AnimationUtility.GetLeftTangentMode or AnimationUtility.GetRightTangentMode instead.'
+1>C:\desi_x\Assets\JSONObject\VectorTemplates.cs(231,6,231,19): warning CS0618: 'Keyframe.tangentMode' is obsolete: 'Use AnimationUtility.SetLeftTangentMode, AnimationUtility.SetRightTangentMode, AnimationUtility.GetLeftTangentMode or AnimationUtility.GetRightTangentMode instead.'
+1>C:\desi_x\Assets\JSONObject\VectorTemplates.cs(231,57,231,70): warning CS0618: 'Keyframe.tangentMode' is obsolete: 'Use AnimationUtility.SetLeftTangentMode, AnimationUtility.SetRightTangentMode, AnimationUtility.GetLeftTangentMode or AnimationUtility.GetRightTangentMode instead.'
+1>C:\desi_x\Assets\Scripts\startup.cs(28,13,28,40): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+1>C:\desi_x\Assets\Scripts\startup.cs(83,17,83,44): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+1>C:\desi_x\Assets\Scripts\startup.cs(91,17,91,44): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+1>C:\desi_x\Assets\Scripts\startup.cs(100,17,100,44): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+1>C:\desi_x\Assets\Scripts\startup.cs(108,17,108,44): warning CS0618: 'Application.loadedLevelName' is obsolete: 'Use SceneManager to determine what scenes have been loaded'
+1>C:\desi_x\Assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs(33,17,33,32): warning CS0649: Field 'Tooltip.tooltipIconPosX' is never assigned to, and will always have its default value 0
+1>C:\desi_x\Assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs(31,18,31,33): warning CS0649: Field 'Tooltip.showTooltipIcon' is never assigned to, and will always have its default value false
+1>C:\desi_x\Assets\Scripts\ListItemBase.cs(39,25,39,39): warning CS0649: Field 'ListItemBase._rectTransform' is never assigned to, and will always have its default value null
+1>C:\desi_x\Assets\Scripts\List.cs(86,16,86,29): warning CS0649: Field 'List._centerOnItem' is never assigned to, and will always have its default value false
+1>C:\desi_x\Assets\Scripts\ListItemCountry.cs(22,15,22,25): warning CS0649: Field 'ListItemCountry._labelCode' is never assigned to, and will always have its default value null
+1>C:\desi_x\Assets\InventoryMaster\Scripts\Item\SplitItem.cs(9,18,9,39): warning CS0649: Field 'SplitItem.pressingButtonToSplit' is never assigned to, and will always have its default value false
+1>C:\desi_x\Assets\Scripts\ListItemCountry.cs(16,16,16,22): warning CS0649: Field 'ListItemCountry._image' is never assigned to, and will always have its default value null
+1>C:\desi_x\Assets\Scripts\List.cs(80,17,80,25): warning CS0649: Field 'List._spacing' is never assigned to, and will always have its default value 0
+1>C:\desi_x\Assets\Scripts\ListItemMovie.cs(16,16,16,22): warning CS0649: Field 'ListItemMovie._image' is never assigned to, and will always have its default value null
+1>C:\desi_x\Assets\Scripts\ListItemMovie.cs(19,28,19,46): warning CS0649: Field 'ListItemMovie._aspectRatioFitter' is never assigned to, and will always have its default value null
+1>C:\desi_x\Assets\Scripts\List.cs(89,17,89,38): warning CS0649: Field 'List._changeItemDragFactor' is never assigned to, and will always have its default value 0
+1>C:\desi_x\Assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs(43,17,43,32): warning CS0649: Field 'Tooltip.tooltipNamePosY' is never assigned to, and will always have its default value 0
+1>C:\desi_x\Assets\Scripts\List.cs(74,25,74,33): warning CS0649: Field 'List._content' is never assigned to, and will always have its default value null
+1>C:\desi_x\Assets\Scripts\List.cs(71,25,71,34): warning CS0649: Field 'List._viewport' is never assigned to, and will always have its default value null
+1>C:\desi_x\Assets\Scripts\ChooseFood.cs(13,16,13,21): warning CS0649: Field 'ChooseFood.Food3' is never assigned to, and will always have its default value null
+1>C:\desi_x\Assets\Scripts\List.cs(83,16,83,34): warning CS0649: Field 'List._fitItemToViewport' is never assigned to, and will always have its default value false
+1>C:\desi_x\Assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs(47,17,47,32): warning CS0649: Field 'Tooltip.tooltipDescPosX' is never assigned to, and will always have its default value 0
+1>C:\desi_x\Assets\Scripts\GalleryControllerTest.cs(10,15,10,20): warning CS0649: Field 'GalleryControllerTest._list' is never assigned to, and will always have its default value null
+1>C:\desi_x\Assets\Scripts\ListControllerTest.cs(25,23,25,32): warning CS0649: Field 'ListControllerTest._listItem' is never assigned to, and will always have its default value null
+1>C:\desi_x\Assets\Scripts\List.cs(77,29,77,47): warning CS0649: Field 'List._scrollOrientation' is never assigned to, and will always have its default value
+1>C:\desi_x\Assets\Scripts\GalleryControllerTest.cs(13,23,13,32): warning CS0649: Field 'GalleryControllerTest._listItem' is never assigned to, and will always have its default value null
+1>C:\desi_x\Assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs(35,17,35,32): warning CS0649: Field 'Tooltip.tooltipIconPosY' is never assigned to, and will always have its default value 0
+1>C:\desi_x\Assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs(49,17,49,32): warning CS0649: Field 'Tooltip.tooltipDescPosY' is never assigned to, and will always have its default value 0
+1>C:\desi_x\Assets\Scripts\ChooseFood.cs(10,16,10,21): warning CS0649: Field 'ChooseFood.Food2' is never assigned to, and will always have its default value null
+1>C:\desi_x\Assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs(45,18,45,33): warning CS0649: Field 'Tooltip.showTooltipDesc' is never assigned to, and will always have its default value false
+1>C:\desi_x\Assets\Scripts\ChooseFood.cs(7,16,7,21): warning CS0649: Field 'ChooseFood.Food1' is never assigned to, and will always have its default value null
+1>C:\desi_x\Assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs(41,17,41,32): warning CS0649: Field 'Tooltip.tooltipNamePosX' is never assigned to, and will always have its default value 0
+1>C:\desi_x\Assets\Scripts\List.cs(68,22,68,33): warning CS0649: Field 'List._scrollRect' is never assigned to, and will always have its default value null
+1>C:\desi_x\Assets\Scripts\ListControllerTest.cs(22,15,22,20): warning CS0649: Field 'ListControllerTest._list' is never assigned to, and will always have its default value null
+1>C:\desi_x\Assets\Scripts\ListItemCountry.cs(19,15,19,21): warning CS0649: Field 'ListItemCountry._label' is never assigned to, and will always have its default value null
+1>C:\desi_x\Assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs(39,18,39,33): warning CS0649: Field 'Tooltip.showTooltipName' is never assigned to, and will always have its default value false
+1>  Assembly-CSharp -> C:\desi_x\Temp\bin\Debug\Assembly-CSharp.dll
+2>------ Build started: Project: Assembly-CSharp-Editor, Configuration: Debug Any CPU ------
+2>  Assembly-CSharp-Editor -> C:\desi_x\Temp\bin\Debug\Assembly-CSharp-Editor.dll
+========== Build: 2 succeeded, 0 failed, 1 up-to-date, 0 skipped ==========
