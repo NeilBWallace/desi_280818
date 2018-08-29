@@ -806,8 +806,12 @@ Prefab:
     - target: {fileID: 114408280907257082, guid: 55e93e83ab3473743a6f55a8a7377c21,
         type: 2}
       propertyPath: m_Text
-      value: Desi Needs to cross this bridge. But there is a Troll guarding it that
-        won't let Desi past...
+      value: 'Deezi needs to cross this bridge but there is an angry troll who guards
+        it. Troll loves unhealthy foods. He thinks they are good for him, but unhealthy
+        or junk foods can cause all sorts of health problems: Heart Disease, difficulty
+        in pooing, slowing down our thinking and learning and it also lowers our energy,
+        it can even make us sad if we eat it all the time. Unhealthy foods do not
+        have all the essential goodness we need. '
       objectReference: {fileID: 0}
     - target: {fileID: 114042232679327336, guid: 55e93e83ab3473743a6f55a8a7377c21,
         type: 2}
@@ -822,7 +826,7 @@ Prefab:
     - target: {fileID: 224544990156932326, guid: 55e93e83ab3473743a6f55a8a7377c21,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -272
+      value: -248
       objectReference: {fileID: 0}
     - target: {fileID: 114871586632141952, guid: 55e93e83ab3473743a6f55a8a7377c21,
         type: 2}
@@ -846,12 +850,46 @@ Prefab:
     - target: {fileID: 224665949027214150, guid: 55e93e83ab3473743a6f55a8a7377c21,
         type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224296608827907680, guid: 55e93e83ab3473743a6f55a8a7377c21,
         type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 224343898547209108, guid: 55e93e83ab3473743a6f55a8a7377c21,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -135
+      objectReference: {fileID: 0}
+    - target: {fileID: 114408280907257082, guid: 55e93e83ab3473743a6f55a8a7377c21,
+        type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114408280907257082, guid: 55e93e83ab3473743a6f55a8a7377c21,
+        type: 2}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224388180355142076, guid: 55e93e83ab3473743a6f55a8a7377c21,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 224388180355142076, guid: 55e93e83ab3473743a6f55a8a7377c21,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 185
+      objectReference: {fileID: 0}
+    - target: {fileID: 224388180355142076, guid: 55e93e83ab3473743a6f55a8a7377c21,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1159205058876124, guid: 55e93e83ab3473743a6f55a8a7377c21, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 55e93e83ab3473743a6f55a8a7377c21, type: 2}
@@ -2052,7 +2090,7 @@ CanvasGroup:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 707099406}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -2359,7 +2397,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 901739417}
   m_LocalRotation: {x: -0, y: -0.89848655, z: -0, w: 0.43900105}
-  m_LocalPosition: {x: 349.6, y: 11.26, z: 383.1}
+  m_LocalPosition: {x: 352.5, y: 11.26, z: 385.16}
   m_LocalScale: {x: 5.789283, y: 5.7892847, z: 5.7892847}
   m_Children:
   - {fileID: 274938983}
@@ -8536,7 +8574,7 @@ CanvasGroup:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1450759169}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -9112,7 +9150,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1779663289}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.09, z: 0.15}
+  m_LocalPosition: {x: -0.02, y: 0.09, z: 0.12}
   m_LocalScale: {x: 0.17566441, y: 0.18300271, z: 0.18300271}
   m_Children: []
   m_Father: {fileID: 901739419}
@@ -10142,7 +10180,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 455730, guid: a74b8142f61144d368e5dde7c70fe020, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 325.2
+      value: 322.82
       objectReference: {fileID: 0}
     - target: {fileID: 455730, guid: a74b8142f61144d368e5dde7c70fe020, type: 2}
       propertyPath: m_LocalPosition.y

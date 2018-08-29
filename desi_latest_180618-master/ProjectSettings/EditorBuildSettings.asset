@@ -87,7 +87,7 @@ EditorBuildSettings:
     path: Assets/InventoryMaster/Examples/magicglade_quiz.unity
     guid: 4655e18cf9fdb764bb5dcd193422d882
   - enabled: 1
-    path: Assets/InventoryMaster/Examples/bridge_quiz.unity
+    path: Assets/bridge_quiz2.unity
     guid: 8150cbdc9e6e0ef49b282de1d43a3b9d
   - enabled: 1
     path: Assets/InventoryMaster/Examples/orchard_quiz.unity
@@ -113,4 +113,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/marketplace.unity
     guid: 17f7411e57cf6aa429c0f0f7e8801b06
+  - enabled: 1
+    path: Assets/crossbridge.unity
+    guid: a6be1de5fb44e54489ff4b06495ff9d8
+  - enabled: 1
+    path: Assets/test.unity
+    guid: e3cde1dc9bad6574d98551b92312f2f7
   m_configObjects: {}

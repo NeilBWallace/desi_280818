@@ -12,7 +12,7 @@ public class gotothebridge2 : MonoBehaviour {
         if (bridge_discussion == 0)
         {
             GameObject.Find("Quickly").GetComponent<Text>().color = Color.red;
-            GameObject.Find("Quickly").GetComponent<Text>().text = "Young Dragon, there is no way you are crossing this bridge till you get me what I need.";
+            GameObject.Find("Quickly").GetComponent<Text>().text = "Who dares to try and cross my bridge?";
             GameObject.Find("Ogre_Image").GetComponent<CanvasGroup>().alpha = 1;
             GameObject.Find("Desi_Image").GetComponent<CanvasGroup>().alpha = 0;
             bridge_discussion++;
@@ -20,7 +20,7 @@ public class gotothebridge2 : MonoBehaviour {
         else if (bridge_discussion == 1)
         {
             GameObject.Find("Quickly").GetComponent<Text>().color = Color.green;
-            GameObject.Find("Quickly").GetComponent<Text>().text = "What do you need?";
+            GameObject.Find("Quickly").GetComponent<Text>().text = "It’s me, Deezi. I need to get home. So please can I cross your bridge?";
             GameObject.Find("Ogre_Image").GetComponent<CanvasGroup>().alpha = 0;
             GameObject.Find("Desi_Image").GetComponent<CanvasGroup>().alpha = 1;
             bridge_discussion++;
@@ -28,7 +28,7 @@ public class gotothebridge2 : MonoBehaviour {
         else if (bridge_discussion == 2)
         {
             GameObject.Find("Quickly").GetComponent<Text>().color = Color.red;
-            GameObject.Find("Quickly").GetComponent<Text>().text = "Well .. you see how I look so beautiful?";
+            GameObject.Find("Quickly").GetComponent<Text>().text = "There is no way you are crossing my bridge, go away …. Wait! …. I am feeling mighty hungry you need to get me something to eat and then I might let you pass.";
             GameObject.Find("Ogre_Image").GetComponent<CanvasGroup>().alpha = 1;
             GameObject.Find("Desi_Image").GetComponent<CanvasGroup>().alpha = 0;
             bridge_discussion++;
@@ -37,7 +37,7 @@ public class gotothebridge2 : MonoBehaviour {
         else if (bridge_discussion == 3)
         {
             GameObject.Find("Quickly").GetComponent<Text>().color = Color.green;
-            GameObject.Find("Quickly").GetComponent<Text>().text = "Um.. beautiful? Well I guess .. so";
+            GameObject.Find("Quickly").GetComponent<Text>().text = "What can I get you?";
             GameObject.Find("Ogre_Image").GetComponent<CanvasGroup>().alpha = 0;
             GameObject.Find("Desi_Image").GetComponent<CanvasGroup>().alpha = 1;
             bridge_discussion++;
@@ -46,7 +46,7 @@ public class gotothebridge2 : MonoBehaviour {
         else if (bridge_discussion == 4)
         {
             GameObject.Find("Quickly").GetComponent<Text>().color = Color.red;
-            GameObject.Find("Quickly").GetComponent<Text>().text = "It's sweets that give me this wonderful complexion, but I'm a little fat to move.";
+            GameObject.Find("Quickly").GetComponent<Text>().text = "Food. Lots of food, so that I can keep my figure and good looks. It takes a lot of sweets, cakes, fried foods and fizzy sweet drinks to make me beautiful.Yawn… I’m feeling a little tired …. young thingy.";
             GameObject.Find("Ogre_Image").GetComponent<CanvasGroup>().alpha = 1;
             GameObject.Find("Desi_Image").GetComponent<CanvasGroup>().alpha = 0;
             bridge_discussion++;
@@ -54,7 +54,7 @@ public class gotothebridge2 : MonoBehaviour {
         else if (bridge_discussion == 5)
         {
             GameObject.Find("Quickly").GetComponent<Text>().color = Color.green;
-            GameObject.Find("Quickly").GetComponent<Text>().text = "Maybe that's because ..";
+            GameObject.Find("Quickly").GetComponent<Text>().text = "Perhaps if you ate healthily..?";
             GameObject.Find("Ogre_Image").GetComponent<CanvasGroup>().alpha = 0;
             GameObject.Find("Desi_Image").GetComponent<CanvasGroup>().alpha = 1;
             bridge_discussion++;
@@ -62,7 +62,7 @@ public class gotothebridge2 : MonoBehaviour {
         else if (bridge_discussion == 6)
         {
             GameObject.Find("Quickly").GetComponent<Text>().color = Color.red;
-            GameObject.Find("Quickly").GetComponent<Text>().text = "Silence..! Go to the magic forest and find me sweets and fatty things then you can pass. ";
+            GameObject.Find("Quickly").GetComponent<Text>().text = "Silence!!!! Go to the magic forest and find me my dinner. Return with 5 pieces of food and you will be able to pass. ";
             GameObject.Find("Ogre_Image").GetComponent<CanvasGroup>().alpha = 1;
             GameObject.Find("Desi_Image").GetComponent<CanvasGroup>().alpha = 0;
             bridge_discussion++;
