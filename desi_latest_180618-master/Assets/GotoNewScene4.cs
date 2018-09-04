@@ -14,7 +14,7 @@ public class GotoNewScene4 : MonoBehaviour {
 
         var pos = GameObject.Find("rabbit1").transform.position.x;
         Debug.Log("pos" + pos);
-        if (pos > 303.4)
+        if (pos > 302.4)
         {
          SceneManager.LoadScene("fall4");
         }

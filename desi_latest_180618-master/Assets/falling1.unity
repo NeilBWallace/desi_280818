@@ -208,15 +208,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013257937424, guid: 11447cf2851057c44a33d84a9bf82c7b, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 359.9311
+      value: 0.5641634
       objectReference: {fileID: 0}
     - target: {fileID: 4000013257937424, guid: 11447cf2851057c44a33d84a9bf82c7b, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 359.9185
+      value: 0.06364418
       objectReference: {fileID: 0}
     - target: {fileID: 4000013257937424, guid: 11447cf2851057c44a33d84a9bf82c7b, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 359.4508
+      value: 359.9204
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 11447cf2851057c44a33d84a9bf82c7b, type: 2}
@@ -437,6 +437,26 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!320 &1552773196
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1552773194}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: e4bdeb326a5dd7d419751e8f2919bf4b, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 0}
+    value: {fileID: 1552773194}
+  - key: {fileID: 114403033033181088, guid: e4bdeb326a5dd7d419751e8f2919bf4b, type: 2}
+    value: {fileID: 1552773194}
+  m_ExposedReferences:
+    m_References: []
 --- !u!54 &1552773197
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -475,32 +495,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.1, z: 0.1}
   m_Center: {x: 0, y: 0.6, z: 0}
---- !u!320 &1552773200
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1552773194}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: b25e244360c1bf44d94633b6057b655e, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 0}
-    value: {fileID: 1552773194}
-  - key: {fileID: 0}
-    value: {fileID: 1552773194}
-  - key: {fileID: 0}
-    value: {fileID: 1552773194}
-  - key: {fileID: 0}
-    value: {fileID: 1552773194}
-  - key: {fileID: 114649578590008934, guid: b25e244360c1bf44d94633b6057b655e, type: 2}
-    value: {fileID: 1552773194}
-  m_ExposedReferences:
-    m_References: []
 --- !u!114 &1552773202
 MonoBehaviour:
   m_ObjectHideFlags: 0

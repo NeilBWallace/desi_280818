@@ -6999,7 +6999,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Eat
+  m_Text: Get For Troll
 --- !u!222 &1409428415
 CanvasRenderer:
   m_ObjectHideFlags: 0

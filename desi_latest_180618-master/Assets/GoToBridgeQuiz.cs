@@ -12,10 +12,16 @@ public class GoToBridgeQuiz : MonoBehaviour {
         // wait for 3 seconds
         yield return new WaitForSeconds(8);
 
-
-        //      SceneManager.LoadScene("InventoryMaster/Examples/bridge_quiz");
-        SceneManager.LoadScene("Orchard");
-
+        if (SceneMan.shortgame_bridge == 1)
+        {
+            //      SceneManager.LoadScene("InventoryMaster/Examples/bridge_quiz");
+            SceneManager.LoadScene("Introduction");
+        }
+        else
+        {
+            //      SceneManager.LoadScene("InventoryMaster/Examples/bridge_quiz");
+            SceneManager.LoadScene("Orchard");
+        }
     }
 
     // Update is called once per frame

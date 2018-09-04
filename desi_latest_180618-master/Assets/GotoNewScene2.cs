@@ -16,7 +16,7 @@ public class GotoNewScene2 : MonoBehaviour {
 
         if (pos <340)
         {
-            SceneManager.LoadScene("Fall2");
+            SceneManager.LoadScene("Fall3");
         }
 
     }

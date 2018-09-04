@@ -10,6 +10,7 @@ GameObject:
   - component: {fileID: 402762}
   - component: {fileID: 3366116}
   - component: {fileID: 2397738}
+  - component: {fileID: 95974199664892850}
   m_Layer: 0
   m_Name: mushroom_house
   m_TagString: Untagged
@@ -43,6 +44,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 200a7e6894dbc8b438a5c01028169980, type: 2}
   - {fileID: 2100000, guid: 8c3d55c19b546d445902cf7372fb7975, type: 2}
@@ -84,3 +86,21 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 141948}
   m_IsPrefabParent: 1
+--- !u!95 &95974199664892850
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141948}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
