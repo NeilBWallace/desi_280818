@@ -179,7 +179,7 @@ public class Next : MonoBehaviour {
                 }
                 else
                 {
-                    SceneManager.LoadScene("Intro_CutScene");
+                    SceneManager.LoadScene("Snow Mountain/Scenes/SnowMountains");
                 }
 
            //     SceneManager.LoadScene("orchard");

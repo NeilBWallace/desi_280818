@@ -99,7 +99,7 @@ EditorBuildSettings:
     path: Assets/End_Scene.unity
     guid: a20a3f5cc1c1fd94eb7dc8eaccb58414
   - enabled: 0
-    path: Assets/fall2.unity
+    path: 
     guid: 4a3612e0a7a9f154ab60356e6c4d992d
   - enabled: 1
     path: Assets/fall3.unity
@@ -119,4 +119,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/test.unity
     guid: e3cde1dc9bad6574d98551b92312f2f7
+  - enabled: 1
+    path: Assets/Snow Mountain/Scenes/SnowMountains.unity
+    guid: 80a7b5808b43ae245bc2c97ce3cfc017
   m_configObjects: {}
