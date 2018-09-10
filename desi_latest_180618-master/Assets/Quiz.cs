@@ -134,7 +134,7 @@ public class Quiz : MonoBehaviour {
     public void See()
     {
 
-
+        GameObject.Find("Not_Quite").GetComponent<AudioSource>().Play();
         CanvasGroup d = GameObject.Find("See_Text").GetComponent<CanvasGroup>();
         d.alpha = 1;
     }
@@ -143,7 +143,7 @@ public class Quiz : MonoBehaviour {
     public void Heal()
     {
 
-
+        GameObject.Find("WellDone").GetComponent<AudioSource>().Play();
         CanvasGroup d = GameObject.Find("Heal_Text").GetComponent<CanvasGroup>();
         d.alpha = 1;
         d = GameObject.Find("OK").GetComponent<CanvasGroup>();
@@ -155,7 +155,7 @@ public class Quiz : MonoBehaviour {
     public void GiveUsEnergy1()
     {
 
-
+        GameObject.Find("Not_Quite").GetComponent<AudioSource>().Play();
         CanvasGroup d = GameObject.Find("Energy_Text").GetComponent<CanvasGroup>();
         d.alpha = 1;
        
