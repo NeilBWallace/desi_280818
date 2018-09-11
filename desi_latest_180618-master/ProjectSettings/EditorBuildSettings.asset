@@ -125,4 +125,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Credits.unity
     guid: 6133b4d6ec87f274bb08d965240ffb68
+  - enabled: 1
+    path: Assets/InventoryMaster/Examples/MagicGladeQuiz.unity
+    guid: d09e9429779831d4fbabbc50f6108560
   m_configObjects: {}

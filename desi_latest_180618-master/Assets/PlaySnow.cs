@@ -18,7 +18,7 @@ public class PlaySnow : MonoBehaviour {
 	IEnumerator Example2()
 	{   
 
-		yield return new WaitForSeconds(54);
+		yield return new WaitForSeconds(58);
         //fx_Snow.SetActive (false);
 
         SceneManager.LoadScene("falling1");

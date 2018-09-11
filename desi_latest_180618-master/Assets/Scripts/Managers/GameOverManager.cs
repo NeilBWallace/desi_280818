@@ -8,7 +8,7 @@ namespace CompleteProject
     public class GameOverManager : MonoBehaviour
     {
         public PlayerHealth playerHealth;       // Reference to the player's health.
-
+        private AudioSource[] allAudioSources;
 
         Animator anim;                          // Reference to the animator component.
 
@@ -47,6 +47,15 @@ namespace CompleteProject
 
             if (ScoreManager.score == 5)
             {
+
+           //     AudioSource audio = gameObject.AddComponent<AudioSource>();
+          //      allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+           //     foreach (AudioSource audioS in allAudioSources)
+           //     {
+           //         audioS.Stop();
+          //      }
+
+
                 Debug.Log("Score" + ScoreManager.score);
 
                 CanvasGroup c = GameObject.Find("End_Panel").GetComponent<CanvasGroup>();
@@ -69,6 +78,9 @@ namespace CompleteProject
                 }
                 if (Application.loadedLevelName == "magic_glade")
                 {
+
+                    GameObject.Find("AllCarbsFoundVoice").GetComponent<AudioSource>().Play();
+
                     GameObject.Find("End_Text").GetComponent<Text>().text = "Well done. Eating carbohydrates has given Desi strength to fly long distances. Are you ready to fly a little?";
                 }
 
