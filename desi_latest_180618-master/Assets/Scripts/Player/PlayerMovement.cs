@@ -33,7 +33,7 @@ namespace CompleteProject
         void FixedUpdate ()
         {
 
-            Debug.Log("x");
+
             // Store the input axes.
             float h = CrossPlatformInputManager.GetAxisRaw("Horizontal");
             float v = CrossPlatformInputManager.GetAxisRaw("Vertical");

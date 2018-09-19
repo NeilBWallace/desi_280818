@@ -141,7 +141,7 @@ public class DragItem : MonoBehaviour, IDragHandler, IPointerDownHandler, IEndDr
                             if (inventory.stackable && sameItem && firstItemStack && secondItemStack)
                             {
 
-                                GameObject.Find("Tasty_Voice").GetComponent<AudioSource>().Play();
+                     //           GameObject.Find("Tasty_Voice").GetComponent<AudioSource>().Play();
 
 
                                 //if the item does not fit into the other item

@@ -37,7 +37,7 @@ public class Next : MonoBehaviour {
 
     public void set_name(int index,string v )
     {
-        Debug.Log("Level" + index);
+       
         string k = SceneManager.GetActiveScene().name;
 
         if (k == "MarketSetup")
@@ -71,7 +71,7 @@ public class Next : MonoBehaviour {
         {
             if (i.transform.GetChild(0).childCount > 0)
             {
-                Debug.Log("sdfsd");
+              
                 n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
                 set_name(0, n);
                 set_description(0, n);
@@ -85,7 +85,7 @@ public class Next : MonoBehaviour {
             if (i.transform.GetChild(0).childCount > 0)
             {
 
-                Debug.Log("sdfsd");
+            
                 n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
                 set_name(1, n);
                 set_description(1, n);
@@ -125,7 +125,7 @@ public class Next : MonoBehaviour {
         {
             if (i.transform.GetChild(0).childCount > 0)
             {
-                Debug.Log("sdfsd");
+              
                 n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
                 set_name(4, n);
                 set_description(4, n);

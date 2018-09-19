@@ -33,7 +33,16 @@ namespace CompleteProject
             Debug.Log("Float duration = " + duration);
 
             yield return new WaitForSeconds(duration);   //Wait
-            SceneManager.LoadScene("Introduction");
+
+           
+
+                SceneManager.LoadScene(Application.loadedLevelName);
+         
+
+
+
+
+
 
             Debug.Log("End Wait() function and the time is: " + Time.time);
 
@@ -45,7 +54,7 @@ namespace CompleteProject
 
 
 
-            if (ScoreManager.score == 5)
+            if ((ScoreManager.score == 5) )
             {
 
            //     AudioSource audio = gameObject.AddComponent<AudioSource>();
@@ -92,6 +101,8 @@ namespace CompleteProject
                     GameObject.Find("End_Text").GetComponent<Text>().text = "Well done. Desi is able to fly home! You have completed your adventure!";
                 }
             }
+
+          
             if (Application.loadedLevelName != "marketplace")
             {
 
