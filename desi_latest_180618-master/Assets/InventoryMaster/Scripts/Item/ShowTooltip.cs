@@ -31,6 +31,9 @@ public class ShowTooltip : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     {
         if (tooltip != null)
         {
+
+
+            Debug.Log("Enter tooltip");
             item = GetComponent<ItemOnObject>().item;                   //we get the item
             tooltip.item = item;                                        //set the item in the tooltip
             tooltip.activateTooltip();                                  //set all informations of the item in the tooltip

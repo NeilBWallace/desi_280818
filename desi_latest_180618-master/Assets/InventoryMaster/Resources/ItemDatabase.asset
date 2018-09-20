@@ -47,22 +47,8 @@ MonoBehaviour:
       attributeValue: 10
     - attributeName: Armor
       attributeValue: 10
-  - itemName: Apple
-    itemID: 2
-    itemDesc: Apples are packed with vitamins to help fights colds and germs and eating
-      the skins gives us the fibre so we are less likely to get  diabetes and heart
-      disease and helps us poo more easily.
-    itemIcon: {fileID: 21300000, guid: b97992270a3583a4b98b05ff29da6415, type: 3}
-    itemModel: {fileID: 0}
-    itemValue: 1
-    itemType: 0
-    itemWeight: 0
-    maxStack: 1
-    indexItemInList: 999
-    rarity: 0
-    itemAttributes: []
   - itemName: Apricot
-    itemID: 3
+    itemID: 2
     itemDesc: Eating apricots help us grow and by looking after our bones , it has
       lots of vitamins, including vitamins A, C, K, E,  as well as fibre so we are
       less likely to get  diabetes and heart disease. It helps our tummy or our digestive
@@ -1175,6 +1161,21 @@ MonoBehaviour:
     itemID: 87
     itemDesc: yoghurt
     itemIcon: {fileID: 21300000, guid: 36220af4ad3d7b444a4047c31d192cd2, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: Apple
+    itemID: 87
+    itemDesc: ating  Apples are a great way to keep healthy. They are packed with
+      vitamins, especially vitamin C and minerals which can help us fight germs. They
+      also contain plenty of fibre to help us poo. If you love apples why not try
+      pears.
+    itemIcon: {fileID: 21300000, guid: b97992270a3583a4b98b05ff29da6415, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
     itemType: 0

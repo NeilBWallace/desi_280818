@@ -1420,11 +1420,9 @@ MonoBehaviour:
   item:
     itemName: Peas
     itemID: 62
-    itemDesc: "Peas help us fight off illness and diseases as they have something
-      called antioxidants and vitamins in them.\_ They are rich in B-vitamins, so
-      they look after your brain, help you grow by keeping your bones strong. Keep
-      your teeth and skin healthy. So much from such a little vegetable. Peassssss
-      try and eat some. Haha!"
+    itemDesc: Peas can help to protect our body from diseases.  They are packed with
+      vitamins and minerals so our body can work properly. They have plenty of fibre
+      to keep us feeling full and to help us poo easier.
     itemIcon: {fileID: 21300000, guid: 6c168a10d9f68db4f80ef98a22aa88d0, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -1646,10 +1644,10 @@ MonoBehaviour:
   item:
     itemName: Apricot
     itemID: 3
-    itemDesc: Eating apricots help us grow and by looking after our bones , it has
-      lots of vitamins, including vitamins A, C, K, E,  as well as fibre so we are
-      less likely to get  diabetes and heart disease. It helps our tummy or our digestive
-      system to poo more easily
+    itemDesc: Eating Apricots are a great way to keep healthy. they have some extra
+      nutrients that not all fruits have called beta-carotene. This helps to keep
+      our eyes healthy.as well as being packed with vitamins and minerals so our body
+      can work properly.
     itemIcon: {fileID: 21300000, guid: afd0fcfb02f5ab1468cc97ce3a35838d, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -1872,10 +1870,9 @@ MonoBehaviour:
   item:
     itemName: Peaches
     itemID: 60
-    itemDesc: "Peaches have lots of goodness: antioxidant which protects from serious
-      illnesses. Vitamin-C fights colds and flu. \xDF-carotene and vitamin A help
-      you see in the dark and have beautiful teeth, skin and strong healthy bones.
-      PEACHY!"
+    itemDesc: Peaches are a great way to keep healthy. They are packed with vitamins,
+      especially vitamin C and minerals which can help us fight germs. They also contain
+      plenty of fibre to help us poo.
     itemIcon: {fileID: 21300000, guid: 813a998acd599a7438db4a8fa6a23bd7, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -2610,7 +2607,9 @@ MonoBehaviour:
   item:
     itemName: Cherries
     itemID: 17
-    itemDesc: 
+    itemDesc: Cherries are a great way to keep healthy. They are packed with vitamins,
+      especially vitamin C and minerals which can help us fight germs. They also contain
+      plenty of fibre to help us poo.
     itemIcon: {fileID: 21300000, guid: 3081d4d09b6cb6147b6c7e8cff429abd, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -2760,7 +2759,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: Pineapples are a great way to keep healthy. They are packed with vitamins,
+    especially vitamin C and minerals which can help us fight germs. They also contain
+    plenty of fibre to help us poo.
   item:
     itemName: Pineapple
     itemID: 37
@@ -3246,7 +3247,11 @@ MonoBehaviour:
   item:
     itemName: Roast Potatoes
     itemID: 71
-    itemDesc: 
+    itemDesc: "Roast Potatoes provide carbohydrates which gives us energy and potassium
+      to help our heart and muscles, it also fuels our brain. the skins give us fibre
+      and they are great with meals \u2013 jacket, mash, boiled, roasted and homemade
+      chips. Not too many though as it can store in our body and turn to unwanted
+      fat."
     itemIcon: {fileID: 21300000, guid: ad848d42e912d894dbc3de54d422fdf8, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -3950,10 +3955,9 @@ MonoBehaviour:
   item:
     itemName: Cauliflower
     itemID: 15
-    itemDesc: Cauliflower a super food, dadah!  so we are less likely to get  to get
-      cancer or heart trouble,  helps fight Infections and is excellent for our brain.It
-      is also good for our digestive system so we are less likely to get diabetes
-      and heart  disease. Delicious especially with a bit of cheese
+    itemDesc: Cauliflower can help to protect our body from diseases.  They are packed
+      with vitamins and minerals so our body can work properly. They have plenty of
+      fibre to keep us feeling full and to help us poo easier.
     itemIcon: {fileID: 21300000, guid: 2da1a15562158934c837da6327c31c81, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -4675,10 +4679,9 @@ MonoBehaviour:
   item:
     itemName: Grapes
     itemID: 29
-    itemDesc: "Grapes\_are good for our\_heart, eyes, brain, blood, and joints, eat
-      the seeds and skin as they have lots of antioxidants which protect us from serious
-      problems, like cancer and heart disease. And they are so much more tastier than
-      sweets, yummy."
+    itemDesc: Grapes are a great way to keep healthy. They are packed with vitamins,
+      especially vitamin C and minerals which can help us fight germs. They also contain
+      plenty of fibre to help us poo.
     itemIcon: {fileID: 21300000, guid: e4f3be6f4d7735040a12b844b9b015d9, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -5077,9 +5080,9 @@ MonoBehaviour:
   item:
     itemName: Melon
     itemID: 49
-    itemDesc: "Melons are full of vitamin C and vitamin A, they help us fight colds,
-      and keep our skin and teeth looking good. They have vitamin B to help our brain.
-      I\u2019ll soon be top of the class if I eat these."
+    itemDesc: Melons are a great way to keep healthy. They are packed with vitamins,
+      especially vitamin C and minerals which can help us fight germs. They also contain
+      plenty of fibre to help us poo.
     itemIcon: {fileID: 21300000, guid: 533f7b8ed018da6488e3c1a7f52c5a80, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -5545,10 +5548,9 @@ MonoBehaviour:
   item:
     itemName: Rasberries
     itemID: 69
-    itemDesc: "Raspberries are full of vitamins, antioxidants, and\_fibre,  So they
-      \ are important for healthy bones, teeth and skin. They\_can fight against serious
-      illnesses, coughs and colds and are less likely to get diabetes and heart disease
-      and they helps us poo more easily "
+    itemDesc: Raspberries are a great way to keep healthy. They are packed with vitamins,
+      especially vitamin C and minerals which can help us fight germs. They also contain
+      plenty of fibre to help us poo.
     itemIcon: {fileID: 21300000, guid: aba4235b3901cc54592699e2d448307b, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -5960,7 +5962,9 @@ MonoBehaviour:
   item:
     itemName: Seeds
     itemID: 72
-    itemDesc: 
+    itemDesc: Seeds are a great way to keep healthy. They are packed with vitamins,
+      especially vitamin C and minerals which can help us fight germs. They also contain
+      plenty of fibre to help us poo.
     itemIcon: {fileID: 21300000, guid: e31537b6e0822344b9dfdeace6d8f954, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -8027,9 +8031,8 @@ MonoBehaviour:
   item:
     itemName: Carrots
     itemID: 14
-    itemDesc: Carrots have something called beta carotene which the body changes into
-      Vitamin A, we need vitamin A for healthy skin, to help our immune system to
-      fight off colds and to have good healthy vision, I can SEE why we need this!
+    itemDesc: Carrots have some extra nutrients that not all vegetables have called
+      beta-carotene. This helps to keep our eyes healthy. Try them as a snack
     itemIcon: {fileID: 21300000, guid: 7ae0e5833e8ccd4409977fcecfa2849e, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -8681,9 +8684,9 @@ MonoBehaviour:
   item:
     itemName: Mango
     itemID: 45
-    itemDesc: Mangoes are filled with vitamins, minerals, fibre and antioxidants.
-      So they protect us from lots of illnesses, keeps us fighting fit and they are
-      so juicey!
+    itemDesc: Mango has some extra nutrients that not all fruits have called beta-carotene.
+      This helps to keep our eyes healthy as well as being packed with vitamins and
+      minerals so our body can work properly.
     itemIcon: {fileID: 21300000, guid: 7adbbad033aabba40832944bc092b5e9, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -9014,10 +9017,9 @@ MonoBehaviour:
   item:
     itemName: Cabbage
     itemID: 13
-    itemDesc: Cabbage is from the Same family as broccoli, it has lots of fibre, vitamins,
-      and iron, potassium, calcium, so it helps our tummys or digestive system, gives
-      us lots of energy, helps our bones, stops us feeling tired, fights off colds
-      and helps when we are worried
+    itemDesc: Cabbage can help to protect our body from diseases.  They are packed
+      with vitamins and minerals so our body can work properly. They have plenty of
+      fibre to keep us feeling full and to help us poo easier.
     itemIcon: {fileID: 21300000, guid: 7885a1c995708034b9b00ea63b6ef8ba, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -10769,9 +10771,9 @@ MonoBehaviour:
   item:
     itemName: Beetroot
     itemID: 7
-    itemDesc: Beetroot has lots of vitamin C  which is great it helps us to fight
-      off infection.and it also has iron which helps our blood and can stop us feeling
-      tired.
+    itemDesc: Beetroot can help to protect our body from diseases.  They are packed
+      with vitamins and minerals so our body can work properly. They have plenty of
+      fibre to keep us feeling full and to help us poo easier.
     itemIcon: {fileID: 21300000, guid: e3ede862955ad2c4fac983068fcd5632, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -11267,10 +11269,9 @@ MonoBehaviour:
   item:
     itemName: Peppers
     itemID: 63
-    itemDesc: We have green, red and peppers that are full of vitamin A, B, C and
-      antioxidants so they help look after your eyes, brain and fight against colds
-      and horrible diseases. Red and Orange are much sweeter, why not try them with
-      a dip, yum!
+    itemDesc: Peppers day can help to protect our body from diseases.  They are packed
+      with vitamins and minerals so our body can work properly. They have plenty of
+      fibre to keep us feeling full and to help us poo easier. Try them as a snack!
     itemIcon: {fileID: 21300000, guid: b7bbac2347f731d4f9915c59049bb923, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -12151,10 +12152,9 @@ MonoBehaviour:
   item:
     itemName: sweetcorn
     itemID: 78
-    itemDesc: "Sweet corn is so cool, it has antioxidant which help fight serious
-      illnesses like cancer and heart disease, it\u2019s loaded with Fibre so we are
-      less likely to get diabetes and heart disease and helps us poo more easily and
-      helps give us\_healthy\_vision."
+    itemDesc: Sweetcorn can help to protect our body from diseases.  They are packed
+      with vitamins and minerals so our body can work properly. They have plenty of
+      fibre to keep us feeling full and to help us poo easier.
     itemIcon: {fileID: 21300000, guid: 96877c35fd7ebf44683b40966610176e, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -12376,9 +12376,10 @@ MonoBehaviour:
   item:
     itemName: Blueberries
     itemID: 10
-    itemDesc: Blue Berries, a superfood, full of vitamins to fight colds and flu,
-      they are also high in something called antioxidants which help protect us from
-      serious illnesses  like cancer and heart disease. So yummy!
+    itemDesc: Blueberries Have antioxidants that protect our body from diseases. They
+      are packed with vitamins, especially vitamin C and minerals which protect us
+      from being sick. They also contain plenty of fibre to help us poo. Why not try
+      blueberries?
     itemIcon: {fileID: 21300000, guid: 8a74332816dc40f4f8a8ac5d019d6e54, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -13515,7 +13516,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '0
+  m_Text: 'Eating  Apples are a great way to keep healthy. They are packed with vitamins,
+    especially vitamin C and minerals which can help us fight germs. They also contain
+    plenty of fibre to help us poo. If you love apples why not try pears.
 
 '
 --- !u!222 &998646142
@@ -14180,10 +14183,9 @@ MonoBehaviour:
   item:
     itemName: Broccoli
     itemID: 11
-    itemDesc: 'Broccoli is super good , it has lots of fibre, vitamins, and iron,
-      potassium, calcium, so it helps our tummys or digestive system, gives us lots
-      of energy, helps our bones, stops us feeling tired, fights off colds and  helps
-      us when are worried. Wow what a great vegetable! '
+    itemDesc: Broccoli can help to protect our body from diseases.  They are packed
+      with vitamins and minerals so our body can work properly. They have plenty of
+      fibre to keep us feeling full and to help us poo easier. Try them as a snack!
     itemIcon: {fileID: 21300000, guid: 2a6411cc0b0590041a33d99ccfde905a, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -14616,8 +14618,9 @@ MonoBehaviour:
   item:
     itemName: Bananas
     itemID: 6
-    itemDesc: 'Bananas are packed with carbohydrates for energy and  potassium for
-      a health heart and help prevent anxiety or stress '
+    itemDesc: Bananas are a great way to keep healthy. They are packed with vitamins,
+      especially vitamin C and minerals which can help us fight germs. They also contain
+      plenty of fibre to help us poo.
     itemIcon: {fileID: 21300000, guid: 20940a5e2c49b644b8f89e0e52aba4bd, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -15278,9 +15281,9 @@ MonoBehaviour:
   item:
     itemName: Spinach
     itemID: 76
-    itemDesc: "Spinach\_has lots of fibre and has lots of goodness like, vitamin K
-      and  calcium for healthy bones, teeth and heart, vitamin C to fight colds, iron
-      to stop us feeling tired. Try having it as a salad."
+    itemDesc: "Spinach\_can help to protect our body from diseases.  They are packed
+      with vitamins and minerals so our body can work properly. They have plenty of
+      fibre to keep us feeling full and to help us poo easier."
     itemIcon: {fileID: 21300000, guid: 00a1bdae12c6b7f4483b68efdab8fd7b, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -16528,11 +16531,9 @@ MonoBehaviour:
   item:
     itemName: Asparagus
     itemID: 4
-    itemDesc: "Asparagus\_is \_great\_for vitamins, minerals that are important for
-      building strong bones and teeth,  skin and  hair, it has lots of protein which
-      helps repair our bodies when we are injured and build muscles  and  it also
-      has fibre so we are less likely to get  diabetes and heart disease. It helps
-      our tummy or our digestive system to poo more easily"
+    itemDesc: Eating lots of Asparagus can help protect our body from diseases.  They
+      are packed with vitamins and minerals so our body can work properly. They have
+      loads of fibre to keep us feeling full and to help us poo easier.
     itemIcon: {fileID: 21300000, guid: 30eb889417ef3e34b86cbe265c11bfed, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -17320,7 +17321,11 @@ MonoBehaviour:
   item:
     itemName: Mash
     itemID: 46
-    itemDesc: 
+    itemDesc: "Mash provide carbohydrates which gives us energy and potassium to help
+      our heart and muscles, it also fuels our brain. the skins give us fibre and
+      they are great with meals \u2013 jacket, mash, boiled, roasted and homemade
+      chips. Not too many though as it can store in our body and turn to unwanted
+      fat."
     itemIcon: {fileID: 21300000, guid: 12e54b25e5c607c4ab4882c491217cf4, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -17766,8 +17771,9 @@ MonoBehaviour:
   item:
     itemName: Leeks
     itemID: 43
-    itemDesc: Leeks are a phenomenal source of vitamins and Antioxidants so it protects
-      us from lots of diseases. Who would have guessed.
+    itemDesc: Leeks can help to protect our body from diseases.  They are packed with
+      vitamins and minerals so our body can work properly. They have plenty of fibre
+      to keep us feeling full and to help us poo easier.
     itemIcon: {fileID: 21300000, guid: 0004b178256426f49a0e92c474194d94, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -18066,10 +18072,9 @@ MonoBehaviour:
   item:
     itemName: Kale
     itemID: 41
-    itemDesc: "Kale\_is high in fibre so it\u2019s really good for our digestion,
-      helping to fight diabetes and heart disease and of course it helps us poo more
-      easily. It is filled with so many vitamins and minerals that are important for
-      building strong bones and teeth, skin and hair. wow its so good for us!"
+    itemDesc: Kale can help to protect our body from diseases.  They are packed with
+      vitamins and minerals so our body can work properly. They have plenty of fibre
+      to keep us feeling full and to help us poo easier.
     itemIcon: {fileID: 21300000, guid: a78d3ca24f6bd6648865f389e6fb4335, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -18223,9 +18228,10 @@ MonoBehaviour:
   item:
     itemName: Blackberries
     itemID: 9
-    itemDesc: Blackberries help our body in many different ways and are packed with
-      Vitamin C. The dark blue colour has something called antioxidants which protect
-      us from serious health problems and they are delicious!
+    itemDesc: Blackberries have antioxidants that protect our body from diseases.
+      They are packed with vitamins, especially vitamin C and minerals which protect
+      us from being sick. They also contain plenty of fibre to help us poo. Why not
+      try blueberries?
     itemIcon: {fileID: 21300000, guid: 373d391d3590c124992c97b4caf5a083, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -18689,8 +18695,10 @@ MonoBehaviour:
   item:
     itemName: Salad
     itemID: 36
-    itemDesc: 
-    itemIcon: {fileID: 21300036, guid: 37607ec1aab56e349af84a980f685a4b, type: 3}
+    itemDesc: are a great way to keep healthy. They are packed with vitamins and minerals
+      which can help us fight germs. They also contain plenty of fibre to help us
+      poo.
+    itemIcon: {fileID: 21300000, guid: 573dfa48699b2e2459fa7959020458f5, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
     itemType: 0
@@ -18843,10 +18851,9 @@ MonoBehaviour:
   item:
     itemName: Cucumber
     itemID: 24
-    itemDesc: "Cucumbers contains lots of different\_B vitamins, This helps with our
-      worries and protects us from \_stress. It\u2019s good for our\_digestion so
-      we are less likely to get diabetes and heart disease and helps us poo more easily.
-      Delicious in a sandwich."
+    itemDesc: Cucumbers can help to protect our body from diseases.  They are packed
+      with vitamins and minerals so our body can work properly. They have plenty of
+      fibre to keep us feeling full and to help us poo easier. Try them as a snack!
     itemIcon: {fileID: 21300000, guid: 50daf461e99c1ea47a37c87aabb20065, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -19000,10 +19007,9 @@ MonoBehaviour:
   item:
     itemName: Strawberry
     itemID: 77
-    itemDesc: "Strawberries\_have antioxidants to help us fight serious illnesses,
-      vitamins, to help fight colds, protect our brains, and help us grow strong and
-      tall. They are good for a healthy heart. And full of fibre. Oh yeah they are
-      good dipped in melted chocolate too. "
+    itemDesc: "Strawberries\_are a great way to keep healthy. They are packed with
+      vitamins, especially vitamin C and minerals which can help us fight germs. They
+      also contain plenty of fibre to help us poo."
     itemIcon: {fileID: 21300000, guid: b96aeb729cd3c814b8807e0e3ae0b040, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -19157,10 +19163,9 @@ MonoBehaviour:
   item:
     itemName: Green Beans
     itemID: 39
-    itemDesc: Green beans are high in fibre, helping us fight diabetes and heart disease
-      and of course helps us poo more easily. It also has some protein which helps
-      repair our bodies when we are hurt and they build muscles, and lots have of
-      different vitamins and calcium for our bones and teeth. Wow they are great.
+    itemDesc: Green Beans can help to protect our body from diseases.  They are packed
+      with vitamins and minerals so our body can work properly. They have plenty of
+      fibre to keep us feeling full and to help us poo easier.
     itemIcon: {fileID: 21300000, guid: af629d2f91c32ec4eba9f53920296431, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -19575,7 +19580,11 @@ MonoBehaviour:
   item:
     itemName: New Potatoes
     itemID: 51
-    itemDesc: 
+    itemDesc: "Potatoes provide carbohydrates which gives us energy and potassium
+      to help our heart and muscles, it also fuels our brain. the skins give us fibre
+      and they are great with meals \u2013 jacket, mash, boiled, roasted and homemade
+      chips. Not too many though as it can store in our body and turn to unwanted
+      fat."
     itemIcon: {fileID: 21300000, guid: 82c2536684812184cac7f65e9d0e4d80, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -19729,11 +19738,9 @@ MonoBehaviour:
   item:
     itemName: Brussel Sprouts
     itemID: 12
-    itemDesc: Brussel Sprouts have antioxidants which can protect  us from having
-      bad health, like cancer and heart disease. They are full of protein to help
-      repair our bodies when we are hurt and they build muscles too.  They have lots
-      of vitamins and minerals to support a healthy body and high fibre. No more constipation
-      for me!
+    itemDesc: Brussel sprouts can help to protect our body from diseases.  They are
+      packed with vitamins and minerals so our body can work properly. They have plenty
+      of fibre to keep us feeling full and to help us poo easier.
     itemIcon: {fileID: 21300000, guid: 419cae4f0625de9438d84367d3b53d6d, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -21019,9 +21026,9 @@ MonoBehaviour:
   item:
     itemName: Mushrooms
     itemID: 50
-    itemDesc: Mushrooms have lots of Fibre, Protein and Vitamin C and D. They will
-      help me poo easily, help my bones and teeth be strong and fight colds. I will
-      smile when I eat these thanks to vitamin D
+    itemDesc: Mushrooms day can help to protect our body from diseases.  They are
+      packed with vitamins and minerals so our body can work properly. They have plenty
+      of fibre to keep us feeling full and to help us poo easier. Try them as a snack!
     itemIcon: {fileID: 21300000, guid: 7bb7faf6152c0444f930e227ea305d08, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -22138,11 +22145,10 @@ MonoBehaviour:
   item:
     itemName: Kiwi
     itemID: 42
-    itemDesc: "Kiwis are full of goodness, they help us to fight against heart disease
-      and strokes and have more vitamin C than oranges \u2013 we need vitamin C to
-      help fight colds and germ. It also has lots of fibre Fibre  so we are less likely
-      to get diabetes and heart disease and helps us poo more easily. They are delicious
-      too!"
+    itemDesc: "n oranges \u2013 we need vitamin C to help fight colds andKiwi fruit
+      are a great way to keep healthy. They are packed with vitamins, especially vitamin
+      C and minerals which can help us fight germs. They also contain plenty of fibre
+      to help us poo."
     itemIcon: {fileID: 21300000, guid: 036fb9b312cefe748a2fbfa61e129ea8, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -22444,9 +22450,9 @@ MonoBehaviour:
   item:
     itemName: Pear
     itemID: 61
-    itemDesc: Pears contain Fibre  so we are less likely to get diabetes and heart
-      disease and helps us poo more easily, antioxidants which help us to fight against
-      serious illnesses and lots of  minerals, and vitamins to keep us in tiptop health.
+    itemDesc: Pears are a great way to keep healthy. They are packed with vitamins,
+      especially vitamin C and minerals which can help us fight germs. They also contain
+      plenty of fibre to help us poo.
     itemIcon: {fileID: 21300000, guid: 1fd7c2cf3da9adb418a1cea9c3c54e95, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -22860,9 +22866,8 @@ MonoBehaviour:
   item:
     itemName: Avocado
     itemID: 5
-    itemDesc: 'Avocados are excellent for good fats so we are less likely to get heart
-      disease. Avocados have lots of  vitamin E  so we are less likely to get  cancer
-      and diabetes. '
+    itemDesc: Avocados have 'healthy fats' that other vegetables do not have. This
+      helps to protect our heart and protect our organs.
     itemIcon: {fileID: 21300000, guid: b2beed5cee938f64ca6eb9a125c37a8a, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -23395,9 +23400,9 @@ MonoBehaviour:
   item:
     itemName: Oranges
     itemID: 56
-    itemDesc: Oranges are full of nutrients, especially vitamin C to fight those horrible
-      colds. They are good for clear and healthy skin and can help stop us getting
-      many diseases. Go oranges!
+    itemDesc: Oranges are a great way to keep healthy. They are packed with vitamins,
+      especially vitamin C and minerals which can help us fight germs. They also contain
+      plenty of fibre to help us poo.
     itemIcon: {fileID: 21300000, guid: 50d7b6b975d01f449aba2c96b2d8a56f, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -23830,11 +23835,9 @@ MonoBehaviour:
   item:
     itemName: Rhubarb
     itemID: 70
-    itemDesc: "Rhubarb\_is full of minerals, vitamins and fibre so it is ideal for
-      keeping our bodies healthy. It keeps our bones and teeth strong, fight off illness
-      and keeps our digestion in good condition. So we are less likely to get diabetes
-      and heart disease and helps us poo more easily. Rhubarb crumble with custard
-      yummy!"
+    itemDesc: "Rhubarb\_are a great way to keep healthy. They are packed with vitamins,
+      especially vitamin C and minerals which can help us fight germs. They also contain
+      plenty of fibre to help us poo."
     itemIcon: {fileID: 21300000, guid: 7b0dc07e64b5b664182184cabb63eac5, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -24056,9 +24059,10 @@ MonoBehaviour:
   item:
     itemName: Apple
     itemID: 2
-    itemDesc: Apples are packed with vitamins to help fights colds and germs and eating
-      the skins gives us the fibre so we are less likely to get  diabetes and heart
-      disease and helps us poo more easily.
+    itemDesc: Eating Apples are a great way to keep healthy. They are packed with
+      vitamins, especially vitamin C and minerals which can help us fight germs. They
+      also contain plenty of fibre to help us poo. If you love apples why not try
+      pears?
     itemIcon: {fileID: 21300000, guid: b97992270a3583a4b98b05ff29da6415, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -24280,10 +24284,9 @@ MonoBehaviour:
   item:
     itemName: Tomatoes
     itemID: 81
-    itemDesc: "Tomatoes have lots of  vitamin E\_to protect our bodies, Vitamin B6,
-      to look after our brain.\_vitamin C to fight colds and flu Vitamin A for healthy
-      bones teeth and skin and vitamin K for our heart and they come in all different
-      shapes and sizes. Love them!!"
+    itemDesc: Tomatoes day can help to protect our body from diseases.  They are packed
+      with vitamins and minerals so our body can work properly. They have plenty of
+      fibre to keep us feeling full and to help us poo easier. Try them as a snack!
     itemIcon: {fileID: 21300000, guid: 1add124e3048bd945bb4ecb84a5323d1, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -24788,8 +24791,9 @@ MonoBehaviour:
   item:
     itemName: Plum
     itemID: 66
-    itemDesc: Plum Yummy, no bad fats, full of minerals and vitamins, especially vitamin
-      C, and small enough to fit in a pack lunch box.
+    itemDesc: Plums are a great way to keep healthy. They are packed with vitamins,
+      especially vitamin C and minerals which can help us fight germs. They also contain
+      plenty of fibre to help us poo.
     itemIcon: {fileID: 21300000, guid: 4105e32ec0105e844aca016de8bf20b5, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -28374,9 +28378,9 @@ MonoBehaviour:
   item:
     itemName: Parsnips
     itemID: 58
-    itemDesc: Parsnip eaters are less likely to get diabetes and heart disease, its
-      full of fibre helping us poo more easily. They help us grow and fight off illnesses
-      and as they have lots of vitamin B they try to stop us feeling unhappy  Go parsnips!
+    itemDesc: Parsnips can help to protect our body from diseases.  They are packed
+      with vitamins and minerals so our body can work properly. They have plenty of
+      fibre to keep us feeling full and to help us poo easier.
     itemIcon: {fileID: 21300000, guid: bae09d9170887964dbee597577d1a499, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -29069,8 +29073,9 @@ MonoBehaviour:
   item:
     itemName: Olives
     itemID: 53
-    itemDesc: "Olives have\_healthy\_fat so they are good for our heart and they help
-      protect us from cancer. A taste of holiday goodness, yaah!"
+    itemDesc: Olives can help to protect our body from diseases.  They are packed
+      with vitamins and minerals so our body can work properly. They have plenty of
+      fibre to keep us feeling full and to help us poo easier. Try them as a snack!
     itemIcon: {fileID: 21300000, guid: a63d14c33007fc54a80fabacfd98132d, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -29710,7 +29715,11 @@ MonoBehaviour:
   item:
     itemName: Jacket Potato
     itemID: 40
-    itemDesc: 
+    itemDesc: "Jacket potatoes provide carbohydrates which gives us energy and potassium
+      to help our heart and muscles, it also fuels our brain. the skins give us fibre
+      and they are great with meals \u2013 jacket, mash, boiled, roasted and homemade
+      chips. Not too many though as it can store in our body and turn to unwanted
+      fat."
     itemIcon: {fileID: 21300000, guid: d44d9b0573b5e62428c5d5996c4f1291, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -29933,10 +29942,9 @@ MonoBehaviour:
   item:
     itemName: Courgette
     itemID: 21
-    itemDesc: Courgettes  are high in  fiber, so we are less likely to get  diabetes
-      and heart disease, it helps us to poo more easily. It has vitamin C which fights
-      colds and  potassium for a health heart and  stops us worrying. All from a little
-      vegetable. wow!
+    itemDesc: Courgettes can help to protect our body from diseases.  They are packed
+      with vitamins and minerals so our body can work properly. They have plenty of
+      fibre to keep us feeling full and to help us poo easier.
     itemIcon: {fileID: 21300000, guid: 6ea0a236369691c4bab1ff265506c881, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1

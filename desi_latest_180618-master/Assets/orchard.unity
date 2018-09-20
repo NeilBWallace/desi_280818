@@ -24990,7 +24990,7 @@ GameObject:
   - component: {fileID: 1333968114}
   - component: {fileID: 1333968113}
   - component: {fileID: 1333968112}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Info_Messages
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27535,7 +27535,7 @@ GameObject:
   - component: {fileID: 1481797137}
   - component: {fileID: 1481797136}
   - component: {fileID: 1481797135}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Market_Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33276,7 +33276,7 @@ GameObject:
   - component: {fileID: 1802283037}
   - component: {fileID: 1802283036}
   - component: {fileID: 1802283035}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Food_Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37773,7 +37773,7 @@ GameObject:
   - component: {fileID: 2079297441}
   - component: {fileID: 2079297440}
   - component: {fileID: 2079297439}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: End_Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
