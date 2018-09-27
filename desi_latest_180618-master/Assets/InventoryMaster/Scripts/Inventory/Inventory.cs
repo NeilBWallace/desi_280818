@@ -608,20 +608,21 @@ public class Inventory : MonoBehaviour
         {
             if (SlotContainer.transform.GetChild(i).childCount == 0)
             {
+                Debug.Log("add item to inventory");
                 GameObject item = (GameObject)Instantiate(prefabItem);
                 ItemOnObject itemOnObject = item.GetComponent<ItemOnObject>();
                 itemOnObject.item = itemDatabase.getItemByID(id);
-                if (itemOnObject.item.itemValue <= itemOnObject.item.maxStack && value <= itemOnObject.item.maxStack)
-                    itemOnObject.item.itemValue = value;
-                else
-                    itemOnObject.item.itemValue = 1;
-                item.transform.SetParent(SlotContainer.transform.GetChild(i));
-                item.GetComponent<RectTransform>().localPosition = Vector3.zero;
-                item.transform.GetChild(0).GetComponent<Image>().sprite = itemOnObject.item.itemIcon;
-                itemOnObject.item.indexItemInList = ItemsInInventory.Count - 1;
-                if (inputManagerDatabase == null)
-                    inputManagerDatabase = (InputManager)Resources.Load("InputManager");
-                return item;
+          //      if (itemOnObject.item.itemValue <= itemOnObject.item.maxStack && value <= itemOnObject.item.maxStack)
+              //      itemOnObject.item.itemValue = value;
+          //      else
+          //          itemOnObject.item.itemValue = 1;
+         //       item.transform.SetParent(SlotContainer.transform.GetChild(i));
+         //       item.GetComponent<RectTransform>().localPosition = Vector3.zero;
+        //        item.transform.GetChild(0).GetComponent<Image>().sprite = itemOnObject.item.itemIcon;
+        //        itemOnObject.item.indexItemInList = ItemsInInventory.Count - 1;
+        //        if (inputManagerDatabase == null)
+       //             inputManagerDatabase = (InputManager)Resources.Load("InputManager");
+      //          return item;
             }
         }
 

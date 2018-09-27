@@ -20,7 +20,7 @@ public class DragItem : MonoBehaviour, IDragHandler, IPointerDownHandler, IEndDr
         rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
         rectTransformSlot = GameObject.FindGameObjectWithTag("DraggingItem").GetComponent<RectTransform>();
-        inventory = transform.parent.parent.parent.GetComponent<Inventory>();
+   //     inventory = transform.parent.parent.parent.GetComponent<Inventory>();
         draggedItemBox = GameObject.FindGameObjectWithTag("DraggingItem").transform;
     
     }
@@ -49,7 +49,7 @@ public class DragItem : MonoBehaviour, IDragHandler, IPointerDownHandler, IEndDr
             }
         }
     
-        inventory.OnUpdateItemList();
+   //     inventory.OnUpdateItemList();
     }
 
 
@@ -67,16 +67,17 @@ public class DragItem : MonoBehaviour, IDragHandler, IPointerDownHandler, IEndDr
 
     public void createDuplication(GameObject Item)
     {
-        Item_On_Object item = Item.GetComponent<ItemOnObject>().item;
-        GameObject duplication = GameObject.FindGameObjectWithTag("MainInventory").GetComponent<Inventory>().addItemToInventory(item.itemID, item.itemValue);
-        duplication.transform.parent.parent.parent.GetComponent<Inventory>().stackableSettings();
-        Item.GetComponent<ConsumeItem>().duplication = duplication;
-        duplication.GetComponent<ConsumeItem>().duplication = Item;
+   Item_On_Object item = Item.GetComponent<ItemOnObject>().item;
+    GameObject duplication = GameObject.FindGameObjectWithTag("MainInventory").GetComponent<Inventory>().addItemToInventory(item.itemID, item.itemValue);
+   //  duplication.transform.parent.parent.parent.GetComponent<Inventory>().stackableSettings();
+//      Item.GetComponent<ConsumeItem>().duplication = duplication;
+  //      duplication.GetComponent<ConsumeItem>().duplication = Item;
 
     }
 
     public void OnEndDrag(PointerEventData data)
     {
+        Debug.Log("On end drag");
         GameObject.Find("Click").GetComponent<AudioSource>().Play();
 
         if (data.button == PointerEventData.InputButton.Left)
@@ -638,7 +639,7 @@ public class DragItem : MonoBehaviour, IDragHandler, IPointerDownHandler, IEndDr
 
             }
         }
-        inventory.OnUpdateItemList();
+   //     inventory.OnUpdateItemList();
     }
 
 }

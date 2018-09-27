@@ -71,10 +71,9 @@ public class Next : MonoBehaviour {
         {
             if (i.transform.GetChild(0).childCount > 0)
             {
-              
-                n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
-                set_name(0, n);
-                set_description(0, n);
+
+                set_name(0, i.transform.GetChild(0).GetComponent<ItemOnObject>().item.itemName);
+                set_description(0, i.transform.GetChild(0).GetComponent<ItemOnObject>().item.itemDesc);
             }
         }
         else { j = 0; }
@@ -85,11 +84,12 @@ public class Next : MonoBehaviour {
             if (i.transform.GetChild(0).childCount > 0)
             {
 
-            
-                n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
-                set_name(1, n);
-                set_description(1, n);
+
+
+                set_name(1, i.transform.GetChild(0).GetComponent<ItemOnObject>().item.itemName);
+                set_description(1, i.transform.GetChild(0).GetComponent<ItemOnObject>().item.itemDesc);
             }
+          
         }
         else { j = 0; }
 
@@ -99,9 +99,9 @@ public class Next : MonoBehaviour {
             if (i.transform.GetChild(0).childCount > 0)
             {
                 Debug.Log("sdfsd");
-                n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
-                set_name(2, n);
-                set_description(2, n);
+
+                set_name(2, i.transform.GetChild(0).GetComponent<ItemOnObject>().item.itemName);
+                set_description(2, i.transform.GetChild(0).GetComponent<ItemOnObject>().item.itemDesc);
             }
         }
         else { j = 0; }
@@ -109,12 +109,14 @@ public class Next : MonoBehaviour {
         i = GameObject.Find("h4");
         if (i.transform.childCount > 0)
         {
+
+         
             if (i.transform.GetChild(0).childCount > 0)
             {
-                Debug.Log("sdfsd");
-                n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
-                set_name(3, n);
-                set_description(3, n);
+
+
+                set_name(3, i.transform.GetChild(0).GetComponent<ItemOnObject>().item.itemName);
+                set_description(3, i.transform.GetChild(0).GetComponent<ItemOnObject>().item.itemDesc);
             }
         }
         else { j = 0; }
@@ -125,10 +127,10 @@ public class Next : MonoBehaviour {
         {
             if (i.transform.GetChild(0).childCount > 0)
             {
-              
-                n = i.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite.name;
-                set_name(4, n);
-                set_description(4, n);
+
+
+                set_name(4, i.transform.GetChild(0).GetComponent<ItemOnObject>().item.itemName);
+                set_description(4, i.transform.GetChild(0).GetComponent<ItemOnObject>().item.itemDesc);
             }
         }
         else { j = 0; }

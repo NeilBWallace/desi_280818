@@ -9499,11 +9499,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: Our body needs energy foods, to keep us working. They give us fuel to
-    run and help us concentrate in class. They also contain fibre to help us poo easier
-    and make us feel fuller for longer so we're not always hungry.
+  itemname: wholemealcrumpet
   item:
-    itemName: Wholemeal Crumpet
+    itemName: wholemealcrumpet
     itemID: 22
     itemDesc: Our body needs energy foods, to keep us working. They give us fuel to
       run and help us concentrate in class. They also contain fibre to help us poo

@@ -29,6 +29,8 @@ public class DragInventory : MonoBehaviour, IPointerDownHandler, IDragHandler
 
     public void OnDrag(PointerEventData data)                               //If you start dragging now
     {
+        Debug.Log("On Drag");
+
         if (panelRectTransform == null)                                     //and no RectTransform from the inventory is there 
             return;                                                         //the function will break out
 

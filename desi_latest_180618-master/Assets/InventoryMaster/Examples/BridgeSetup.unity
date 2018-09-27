@@ -681,10 +681,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: hotdog
   item:
-    itemName: hotdogs
-    itemID: 79
+    itemName: hotdog
+    itemID: 107
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
       not everyday. Eating these types of food too much can make us feel and become
@@ -995,7 +995,6 @@ RectTransform:
   - {fileID: 1612569098}
   - {fileID: 1193132564}
   - {fileID: 1398507545}
-  - {fileID: 789871150}
   - {fileID: 942425267}
   - {fileID: 1180055807}
   - {fileID: 1813357362}
@@ -1665,10 +1664,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: popcorn
   item:
-    itemName: Sweet Popcorn
-    itemID: 79
+    itemName: popcorn
+    itemID: 110
     itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
       to have these foods sometimes, but not everyday. Eating these types of food
       too much can make us feel and become sick.
@@ -2045,7 +2044,7 @@ RectTransform:
   m_Children:
   - {fileID: 960190564}
   m_Father: {fileID: 67249968}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2477,7 +2476,7 @@ RectTransform:
   m_Children:
   - {fileID: 285575091}
   m_Father: {fileID: 67249968}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2657,10 +2656,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: sausages
   item:
     itemName: sausages
-    itemID: 79
+    itemID: 91
     itemDesc: Sausages have a lot of bad fats which can block the blood from flowing
       in our body and damage our heart. We are allowed to have these foods sometimes,
       but not everyday. Eating these types of food too much can make us feel and become
@@ -2858,7 +2857,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 88, y: -21}
-  m_SizeDelta: {x: 130, y: 30}
+  m_SizeDelta: {x: 200, y: 30}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &246526543
 MonoBehaviour:
@@ -3331,10 +3330,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: burger
   item:
-    itemName: Burgers
-    itemID: 79
+    itemName: burger
+    itemID: 106
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
       not everyday. Eating these types of food too much can make us feel and become
@@ -3488,10 +3487,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: chips
   item:
-    itemName: Chips
-    itemID: 79
+    itemName: chips
+    itemID: 18
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
       not everyday. Eating these types of food too much can make us feel and become
@@ -3645,10 +3644,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: chedder
   item:
-    itemName: chedder cheese
-    itemID: 79
+    itemName: chedder
+    itemID: 107
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
       not everyday. Eating these types of food too much can make us feel and become
@@ -3770,74 +3769,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 296864417}
---- !u!1 &316362508
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 316362509}
-  - component: {fileID: 316362511}
-  - component: {fileID: 316362510}
-  m_Layer: 0
-  m_Name: ItemIcon
-  m_TagString: ItemIcon
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &316362509
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 316362508}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 792120683}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 40, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &316362510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 316362508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 237f269c6bcc10848b94ba1f2af802c1, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &316362511
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 316362508}
 --- !u!1 &340852227
 GameObject:
   m_ObjectHideFlags: 0
@@ -4176,10 +4107,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: pizza
   item:
-    itemName: Pizza
-    itemID: 35
+    itemName: pizza
+    itemID: 89
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
       not everyday. Eating these types of food too much can make us feel and become
@@ -4900,10 +4831,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: fattymeat
   item:
-    itemName: Fatty Meat
-    itemID: 79
+    itemName: fattymeat
+    itemID: 88
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
       not everyday. Eating these types of food too much can make us feel and become
@@ -4917,74 +4848,6 @@ MonoBehaviour:
     indexItemInList: 4
     rarity: 0
     itemAttributes: []
---- !u!1 &476284961
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 476284962}
-  - component: {fileID: 476284964}
-  - component: {fileID: 476284963}
-  m_Layer: 0
-  m_Name: SlotCover
-  m_TagString: ItemIcon
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &476284962
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 476284961}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 792120683}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 55, y: 55}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &476284963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 476284961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &476284964
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 476284961}
 --- !u!1 &478813421
 GameObject:
   m_ObjectHideFlags: 0
@@ -5463,10 +5326,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: crisps
   item:
     itemName: Crisps
-    itemID: 79
+    itemID: 31
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
       not everyday. Eating these types of food too much can make us feel and become
@@ -6222,9 +6085,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: icecream
   item:
-    itemName: Ice Cream
+    itemName: icecream
     itemID: 34
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart.. They also have a lot of sugar which cause our teeth
@@ -6348,7 +6211,7 @@ RectTransform:
   m_Children:
   - {fileID: 294946771}
   m_Father: {fileID: 67249968}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6604,10 +6467,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: cheesecrackers
   item:
-    itemName: Cheese Crackers
-    itemID: 79
+    itemName: cheesecrackers
+    itemID: 105
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
       not everyday. Eating these types of food too much can make us feel and become
@@ -7346,7 +7209,7 @@ RectTransform:
   m_Children:
   - {fileID: 1042300393}
   m_Father: {fileID: 67249968}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7566,10 +7429,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: biscuits
   item:
-    itemName: Biscuits
-    itemID: 79
+    itemName: biscuits
+    itemID: 111
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart.. They also have a lot of sugar which cause our teeth
       to fall out.  We are allowed to have these foods sometimes, but not everyday.
@@ -8129,232 +7992,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 773869781}
---- !u!1 &789871149
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 789871150}
-  - component: {fileID: 789871152}
-  - component: {fileID: 789871151}
-  m_Layer: 0
-  m_Name: 31
-  m_TagString: Slot
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &789871150
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 789871149}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9999962, y: 0.999996, z: 0.999996}
-  m_Children:
-  - {fileID: 792120683}
-  m_Father: {fileID: 67249968}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &789871151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 789871149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: a744b3fadb362b44a9569bfca96965a4, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &789871152
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 789871149}
---- !u!1 &792120682
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 792120683}
-  - component: {fileID: 792120690}
-  - component: {fileID: 792120689}
-  - component: {fileID: 792120688}
-  - component: {fileID: 792120687}
-  - component: {fileID: 792120686}
-  - component: {fileID: 792120685}
-  - component: {fileID: 792120684}
-  m_Layer: 0
-  m_Name: Item(Clone)
-  m_TagString: Item
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &792120683
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 792120682}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 316362509}
-  - {fileID: 926042571}
-  - {fileID: 476284962}
-  m_Father: {fileID: 789871150}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 55, y: 55}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &792120684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 792120682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &792120685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 792120682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aeee4d1094181f94eb55424d868d1e16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item:
-    itemName: 
-    itemID: 0
-    itemDesc: 
-    itemIcon: {fileID: 0}
-    itemModel: {fileID: 0}
-    itemValue: 1
-    itemType: 0
-    itemWeight: 0
-    maxStack: 1
-    indexItemInList: 999
-    rarity: 0
-    itemAttributes: []
-  itemTypeOfSlot: 
-  duplication: {fileID: 0}
---- !u!114 &792120686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 792120682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f5a9582e04e1c1428e86495f3d1e082, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tooltip: {fileID: 0}
-  tooltipGameObject: {fileID: 0}
-  canvasRectTransform: {fileID: 0}
-  tooltipRectTransform: {fileID: 0}
---- !u!114 &792120687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 792120682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 610a95ca483a9f249901df667cceab36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inv: {fileID: 0}
---- !u!225 &792120688
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 792120682}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
---- !u!114 &792120689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 792120682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9887636bf4a49840b48d8ef682683f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &792120690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 792120682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemname: 
-  item:
-    itemName: Sausages
-    itemID: 79
-    itemDesc: Have a lot of bad fats which can block the blood from flowing in our
-      body and damage our heart. We are allowed to have these foods sometimes, but
-      not everyday. Eating these types of food too much can make us feel and become
-      sick.
-    itemIcon: {fileID: 21300000, guid: 237f269c6bcc10848b94ba1f2af802c1, type: 3}
-    itemModel: {fileID: 0}
-    itemValue: 1
-    itemType: 0
-    itemWeight: 0
-    maxStack: 1
-    indexItemInList: 4
-    rarity: 0
-    itemAttributes: []
 --- !u!1 &812665852
 GameObject:
   m_ObjectHideFlags: 1
@@ -8759,7 +8396,7 @@ RectTransform:
   m_Children:
   - {fileID: 2032722115}
   m_Father: {fileID: 67249968}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9094,82 +8731,6 @@ MonoBehaviour:
   m_Spacing: {x: 5, y: 5}
   m_Constraint: 0
   m_ConstraintCount: 2
---- !u!1 &926042570
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 926042571}
-  - component: {fileID: 926042573}
-  - component: {fileID: 926042572}
-  m_Layer: 0
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &926042571
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 926042570}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 792120683}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11.7, y: 2.4999998}
-  m_SizeDelta: {x: 33.1, y: 35}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &926042572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 926042570}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: '0
-
-'
---- !u!222 &926042573
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 926042570}
 --- !u!1 &926690827
 GameObject:
   m_ObjectHideFlags: 0
@@ -9555,7 +9116,7 @@ RectTransform:
   m_Children:
   - {fileID: 284670686}
   m_Father: {fileID: 67249968}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9819,10 +9380,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: juice
   item:
-    itemName: Juice
-    itemID: 79
+    itemName: juice
+    itemID: 114
     itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
       to have these foods sometimes, but not everyday. Eating these types of food
       too much can make us feel and become sick.
@@ -10204,7 +9765,7 @@ RectTransform:
   m_Children:
   - {fileID: 1791491128}
   m_Father: {fileID: 67249968}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -10384,10 +9945,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: cream
   item:
-    itemName: Cream
-    itemID: 79
+    itemName: cream
+    itemID: 109
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
       not everyday. Eating these types of food too much can make us feel and become
@@ -10652,7 +10213,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 22, y: -84}
-  m_SizeDelta: {x: 300, y: 164}
+  m_SizeDelta: {x: 250, y: 164}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1079823262
 MonoBehaviour:
@@ -11333,10 +10894,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: pies
+  itemname: pie
   item:
-    itemName: pies
-    itemID: 79
+    itemName: pie
+    itemID: 93
     itemDesc: Pies have a lot of bad fats which can block the blood from flowing in
       our body and damage our heart. We are allowed to have these foods sometimes,
       but not everyday. Eating these types of food too much can make us feel and become
@@ -11699,9 +11260,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: chocolate
   item:
-    itemName: Chocolate
+    itemName: chocolate
     itemID: 20
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart.. They also have a lot of sugar which cause our teeth
@@ -11814,7 +11375,7 @@ RectTransform:
   m_Children:
   - {fileID: 17295181}
   m_Father: {fileID: 67249968}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -12100,7 +11661,7 @@ RectTransform:
   m_Children:
   - {fileID: 136761931}
   m_Father: {fileID: 67249968}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -12582,7 +12143,7 @@ RectTransform:
   m_Children:
   - {fileID: 1934169367}
   m_Father: {fileID: 67249968}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -13073,10 +12634,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: croissant
   item:
-    itemName: Croissants
-    itemID: 79
+    itemName: croissant
+    itemID: 22
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart.. They also have a lot of sugar which cause our teeth
       to fall out.  We are allowed to have these foods sometimes, but not everyday.
@@ -14118,7 +13679,7 @@ RectTransform:
   m_Children:
   - {fileID: 1760270179}
   m_Father: {fileID: 67249968}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -14822,14 +14383,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: lollipop
   item:
-    itemName: Ice Lolly
+    itemName: lollipop
     itemID: 33
-    itemDesc: Have a lot of bad sugars which can blThey also have a lot of sugar which
-      cause our teeth to fall out.  We are allowed to have these foods sometimes,
-      but not everyday. Eating these types of food too much can make us feel and become
-      sick
+    itemDesc: Have aHave a lot of sugar which cause our teeth to fall out.  We are
+      allowed to have these foods sometimes, but not everyday. Eating these types
+      of food too much can make us feel and become sick.
     itemIcon: {fileID: 21300000, guid: 4e787a5aaae06a9498faf37392d29924, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -16306,7 +15866,7 @@ MonoBehaviour:
   itemname: sweets
   item:
     itemName: sweets
-    itemID: 79
+    itemID: 78
     itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
       to have these foods sometimes, but not everyday. Eating these types of food
       too much can make us feel and become sick.
@@ -16671,10 +16231,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: butter
   item:
     itemName: butter
-    itemID: 79
+    itemID: 108
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
       not everyday. Eating these types of food too much can make us feel and become
@@ -17090,10 +16650,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: can
   item:
-    itemName: Fizzy Drinks
-    itemID: 79
+    itemName: can
+    itemID: 113
     itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
       to have these foods sometimes, but not everyday. Eating these types of food
       too much can make us feel and become sick.
@@ -17389,10 +16949,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: cake
   item:
-    itemName: Cakes
-    itemID: 79
+    itemName: cake
+    itemID: 112
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart.. They also have a lot of sugar which cause our teeth
       to fall out.  We are allowed to have these foods sometimes, but not everyday.
@@ -17564,9 +17124,12 @@ MonoBehaviour:
       attributeValue: 10
     - attributeName: Armor
       attributeValue: 10
-  - itemName: Chocolate
+  - itemName: chocolate
     itemID: 20
-    itemDesc: 
+    itemDesc: Have a lot of bad fats which can block the blood from flowing in our
+      body and damage our heart.. They also have a lot of sugar which cause our teeth
+      to fall out.  We are allowed to have these foods sometimes, but not everyday.
+      Eating these types of food too much can make us feel and become sick
     itemIcon: {fileID: 21300000, guid: 02ec634a61d83f14dbfc1ccddb80ba41, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -17576,7 +17139,7 @@ MonoBehaviour:
     indexItemInList: 0
     rarity: 0
     itemAttributes: []
-  - itemName: Ice Lolly
+  - itemName: lollipop
     itemID: 33
     itemDesc: Have a lot of bad sugars which can blThey also have a lot of sugar which
       cause our teeth to fall out.  We are allowed to have these foods sometimes,
@@ -17607,8 +17170,11 @@ MonoBehaviour:
     rarity: 0
     itemAttributes: []
   - itemName: Pizza
-    itemID: 35
-    itemDesc: 
+    itemID: 89
+    itemDesc: Have a lot of bad fats which can block the blood from flowing in our
+      body and damage our heart. We are allowed to have these foods sometimes, but
+      not everyday. Eating these types of food too much can make us feel and become
+      sick.
     itemIcon: {fileID: 21300000, guid: 0f64aca1f69c71c4f8de81916ee2f33a, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -17619,7 +17185,7 @@ MonoBehaviour:
     rarity: 0
     itemAttributes: []
   - itemName: sausages
-    itemID: 79
+    itemID: 91
     itemDesc: Sausages have a lot of bad fats which can block the blood from flowing
       in our body and damage our heart. We are allowed to have these foods sometimes,
       but not everyday. Eating these types of food too much can make us feel and become
@@ -17634,8 +17200,10 @@ MonoBehaviour:
     rarity: 0
     itemAttributes: []
   - itemName: sweets
-    itemID: 79
-    itemDesc: 
+    itemID: 78
+    itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
+      to have these foods sometimes, but not everyday. Eating these types of food
+      too much can make us feel and become sick.
     itemIcon: {fileID: 21300000, guid: c660c52adbc4a7444b670f3bb5eef83a, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -17646,7 +17214,7 @@ MonoBehaviour:
     rarity: 0
     itemAttributes: []
   - itemName: pies
-    itemID: 79
+    itemID: 93
     itemDesc: Pies have a lot of bad fats which can block the blood from flowing in
       our body and damage our heart. We are allowed to have these foods sometimes,
       but not everyday. Eating these types of food too much can make us feel and become
@@ -17661,7 +17229,7 @@ MonoBehaviour:
     rarity: 0
     itemAttributes: []
   - itemName: Fatty Meat
-    itemID: 0
+    itemID: 88
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
       not everyday. Eating these types of food too much can make us feel and become
@@ -17669,10 +17237,245 @@ MonoBehaviour:
     itemIcon: {fileID: 21300000, guid: 65489eaedce53d942aa4bbdc24032dcc, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
-    itemType: 2
+    itemType: 0
     itemWeight: 0
-    maxStack: 0
-    indexItemInList: 7
+    maxStack: 1
+    indexItemInList: 4
+    rarity: 0
+    itemAttributes: []
+  - itemName: Burgers
+    itemID: 106
+    itemDesc: Have a lot of bad fats which can block the blood from flowing in our
+      body and damage our heart. We are allowed to have these foods sometimes, but
+      not everyday. Eating these types of food too much can make us feel and become
+      sick.
+    itemIcon: {fileID: 21300000, guid: 2d59f40e13a82f14f9f96aedfbbdf819, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 4
+    rarity: 0
+    itemAttributes: []
+  - itemName: hotdog
+    itemID: 107
+    itemDesc: Have a lot of bad fats which can block the blood from flowing in our
+      body and damage our heart. We are allowed to have these foods sometimes, but
+      not everyday. Eating these types of food too much can make us feel and become
+      sick.
+    itemIcon: {fileID: 21300000, guid: 711fbeb8ebeb26f41a5e93986bae7a43, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 4
+    rarity: 0
+    itemAttributes: []
+  - itemName: butter
+    itemID: 108
+    itemDesc: Have a lot of bad fats which can block the blood from flowing in our
+      body and damage our heart. We are allowed to have these foods sometimes, but
+      not everyday. Eating these types of food too much can make us feel and become
+      sick.
+    itemIcon: {fileID: 21300000, guid: 152c51aa457fb4145864d880f24888e5, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 4
+    rarity: 0
+    itemAttributes: []
+  - itemName: chedder cheese
+    itemID: 107
+    itemDesc: Have a lot of bad fats which can block the blood from flowing in our
+      body and damage our heart. We are allowed to have these foods sometimes, but
+      not everyday. Eating these types of food too much can make us feel and become
+      sick.
+    itemIcon: {fileID: 21300000, guid: 1d71a0ac7c146e640a728d276bb94778, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 4
+    rarity: 0
+    itemAttributes: []
+  - itemName: Cream
+    itemID: 109
+    itemDesc: Have a lot of bad fats which can block the blood from flowing in our
+      body and damage our heart. We are allowed to have these foods sometimes, but
+      not everyday. Eating these types of food too much can make us feel and become
+      sick.
+    itemIcon: {fileID: 21300000, guid: a639cea028322d64e96d1cfa399405ff, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 4
+    rarity: 0
+    itemAttributes: []
+  - itemName: Cheese Crackers
+    itemID: 105
+    itemDesc: Have a lot of bad fats which can block the blood from flowing in our
+      body and damage our heart. We are allowed to have these foods sometimes, but
+      not everyday. Eating these types of food too much can make us feel and become
+      sick.
+    itemIcon: {fileID: 21300000, guid: 42991af0ea891db4f87bfe9781baa2aa, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 4
+    rarity: 0
+    itemAttributes: []
+  - itemName: Crisps
+    itemID: 31
+    itemDesc: Have a lot of bad fats which can block the blood from flowing in our
+      body and damage our heart. We are allowed to have these foods sometimes, but
+      not everyday. Eating these types of food too much can make us feel and become
+      sick.
+    itemIcon: {fileID: 21300000, guid: dbe9c19ed544fa34581c67d390acf8ba, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 4
+    rarity: 0
+    itemAttributes: []
+  - itemName: Sweet Popcorn
+    itemID: 110
+    itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
+      to have these foods sometimes, but not everyday. Eating these types of food
+      too much can make us feel and become sick.
+    itemIcon: {fileID: 21300000, guid: 1fdba80fb3c35d945a86b28d9980f3e6, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 4
+    rarity: 0
+    itemAttributes: []
+  - itemName: biscuits
+    itemID: 111
+    itemDesc: Have a lot of bad fats which can block the blood from flowing in our
+      body and damage our heart.. They also have a lot of sugar which cause our teeth
+      to fall out.  We are allowed to have these foods sometimes, but not everyday.
+      Eating these types of food too much can make us feel and become sick
+    itemIcon: {fileID: 21300000, guid: 81e5b6209aacd264ba0f7dfcd863d613, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 4
+    rarity: 0
+    itemAttributes: []
+  - itemName: Cakes
+    itemID: 112
+    itemDesc: Have a lot of bad fats which can block the blood from flowing in our
+      body and damage our heart.. They also have a lot of sugar which cause our teeth
+      to fall out.  We are allowed to have these foods sometimes, but not everyday.
+      Eating these types of food too much can make us feel and become sick
+    itemIcon: {fileID: 21300000, guid: 5394375833092804b8a0766b455ad428, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 4
+    rarity: 0
+    itemAttributes: []
+  - itemName: Croissant
+    itemID: 22
+    itemDesc: Have a lot of bad fats which can block the blood from flowing in our
+      body and damage our heart.. They also have a lot of sugar which cause our teeth
+      to fall out.  We are allowed to have these foods sometimes, but not everyday.
+      Eating these types of food too much can make us feel and become sick
+    itemIcon: {fileID: 21300000, guid: 1600c9a84183068459c9238baef41ffb, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 4
+    rarity: 0
+    itemAttributes: []
+  - itemName: Fizzy Drink
+    itemID: 113
+    itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
+      to have these foods sometimes, but not everyday. Eating these types of food
+      too much can make us feel and become sick.
+    itemIcon: {fileID: 21300000, guid: 8f5b1b319bb9eff4285b2d1c7d47d14a, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 4
+    rarity: 0
+    itemAttributes: []
+  - itemName: Juice
+    itemID: 114
+    itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
+      to have these foods sometimes, but not everyday. Eating these types of food
+      too much can make us feel and become sick.
+    itemIcon: {fileID: 21300000, guid: 53f21f67669dfe54796d0a1935b772a3, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 4
+    rarity: 0
+    itemAttributes: []
+  - itemName: Chips
+    itemID: 18
+    itemDesc: Have a lot of bad fats which can block the blood from flowing in our
+      body and damage our heart. We are allowed to have these foods sometimes, but
+      not everyday. Eating these types of food too much can make us feel and become
+      sick
+    itemIcon: {fileID: 21300000, guid: 7d58a2038921b1943b534d097ef80655, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 4
+    rarity: 0
+    itemAttributes: []
+  - itemName: SugarCereals
+    itemID: 115
+    itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
+      to have these foods sometimes, but not everyday. Eating these types of food
+      too much can make us feel and become sick.
+    itemIcon: {fileID: 21300000, guid: dea67bf3b0284654590b20773318f36a, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 4
+    rarity: 0
+    itemAttributes: []
+  - itemName: Chocolate Cereal
+    itemID: 116
+    itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
+      to have these foods sometimes, but not everyday. Eating these types of food
+      too much can make us feel and become sick.
+    itemIcon: {fileID: 21300000, guid: 0e996ff3c8e43b042820b68162624c1c, type: 3}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 4
     rarity: 0
     itemAttributes: []
   height: 5
@@ -17958,7 +17761,7 @@ RectTransform:
   m_Children:
   - {fileID: 1723882341}
   m_Father: {fileID: 67249968}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -18236,7 +18039,7 @@ RectTransform:
   m_Children:
   - {fileID: 613364475}
   m_Father: {fileID: 67249968}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -19136,10 +18939,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: chocolatecereal
   item:
-    itemName: Chocolate Cereal
-    itemID: 79
+    itemName: chocolatecereal
+    itemID: 116
     itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
       to have these foods sometimes, but not everyday. Eating these types of food
       too much can make us feel and become sick.
@@ -19354,7 +19157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -110.5, y: -47}
+  m_AnchoredPosition: {x: -168, y: -47}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1950383676
@@ -20142,10 +19945,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e183a0fcf91889441a73da5cab2cf034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemname: 
+  itemname: cereal
   item:
-    itemName: SugarCereals
-    itemID: 79
+    itemName: cereal
+    itemID: 115
     itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
       to have these foods sometimes, but not everyday. Eating these types of food
       too much can make us feel and become sick.
@@ -20323,7 +20126,7 @@ RectTransform:
   m_Children:
   - {fileID: 504865727}
   m_Father: {fileID: 67249968}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -20392,7 +20195,7 @@ RectTransform:
   m_Children:
   - {fileID: 735166994}
   m_Father: {fileID: 67249968}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -20529,7 +20332,7 @@ RectTransform:
   m_Children:
   - {fileID: 1268391839}
   m_Father: {fileID: 67249968}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

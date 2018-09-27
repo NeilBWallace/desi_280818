@@ -4,9 +4,17 @@ using UnityEngine;
 
 public class Back : MonoBehaviour {
 
-
-  public   void GoBack()
+    private AudioSource[] allAudioSources;
+    public   void GoBack()
     {
+        Time.timeScale = 1f;
+        allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+
+        foreach (AudioSource audioS in allAudioSources)
+        {
+            audioS.Stop();
+        }
+
         //Hide Food canvas and Startup panels
         CanvasGroup c = GameObject.Find("Food_Panel").GetComponent<CanvasGroup>();
         c.alpha = 0;
