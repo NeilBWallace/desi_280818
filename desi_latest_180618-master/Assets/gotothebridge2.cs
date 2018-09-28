@@ -49,6 +49,7 @@ public class gotothebridge2 : MonoBehaviour {
 
         else if (bridge_discussion == 3)
         {
+            GameObject.Find("whatdoyouwant").GetComponent<AudioSource>().Play();
             GameObject.Find("Quickly").GetComponent<Text>().color = Color.green;
             GameObject.Find("Quickly").GetComponent<Text>().text = "What can I get you?";
             GameObject.Find("Ogre_Image").GetComponent<CanvasGroup>().alpha = 0;

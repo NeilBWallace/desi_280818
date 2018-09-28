@@ -57,13 +57,8 @@ namespace CompleteProject
             if ((ScoreManager.score == 5) )
             {
 
-           //     AudioSource audio = gameObject.AddComponent<AudioSource>();
-          //      allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
-           //     foreach (AudioSource audioS in allAudioSources)
-           //     {
-           //         audioS.Stop();
-          //      }
-
+             
+                Time.timeScale = 0;
 
                 Debug.Log("Score" + ScoreManager.score);
 

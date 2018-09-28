@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
-using System.Collections;
+
 
 /* Makes enemies follow and attack the player */
 

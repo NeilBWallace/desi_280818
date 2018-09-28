@@ -62,7 +62,7 @@ public class Next : MonoBehaviour {
     {
         GameObject i;
         
-        string n="";
+       
         int j = 1;
       
         i = GameObject.Find("h1");

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class audi : MonoBehaviour {
     private AudioSource[] allAudioSources;
+    
     public AudioClip alarm;
     private AudioSource source;
     public bool enter;
@@ -16,7 +17,10 @@ public class audi : MonoBehaviour {
       
         if (other.gameObject.CompareTag("Player"))
         {
-            source.Play();
+         
+            GameObject.Find("rabbitphilosophy").GetComponent<AudioSource>().Play();
+
+
         }
     }
 

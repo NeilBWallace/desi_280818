@@ -9,6 +9,7 @@ public class timer : MonoBehaviour {
     private AudioSource source;
     public int timeLeft = 180;
     public Text countdownText;
+    public AudioSource audioSource;
     IEnumerator Wait(float duration)
 
 
@@ -66,7 +67,10 @@ public class timer : MonoBehaviour {
 
         {
             source = GetComponent<AudioSource>();
-            source.Play();
+            if (!audioSource.isPlaying)
+            {
+                source.Play();
+            }
         }
 
         if (timeLeft <=0)

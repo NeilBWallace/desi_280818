@@ -1022,7 +1022,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -60, y: -48}
+  m_AnchoredPosition: {x: -8, y: -50}
   m_SizeDelta: {x: 485, y: 430}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &67249969
@@ -1081,8 +1081,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -63, y: -374}
-  m_SizeDelta: {x: 250, y: 60.1}
+  m_AnchoredPosition: {x: 69, y: -374}
+  m_SizeDelta: {x: 200, y: 60.1}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &74443366
 MonoBehaviour:
@@ -1127,7 +1127,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Drag 5 sweets/fats onto the panel. Then select Next->
+  m_Text: Drag 5 sweets/fats to the rightl. Then select Next->
 --- !u!222 &74443368
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2346,7 +2346,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -71, y: -161}
+  m_AnchoredPosition: {x: -46, y: -131}
   m_SizeDelta: {x: 170, y: 335}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &211976377
@@ -3829,7 +3829,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 135, y: -167}
+  m_AnchoredPosition: {x: 217, y: -167}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &340852229
@@ -10447,7 +10447,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -3, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1085014208
@@ -12536,7 +12536,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 5, y: 1}
+  m_AnchoredPosition: {x: -20, y: 1}
   m_SizeDelta: {x: 0, y: 35}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1257457095
@@ -12838,7 +12838,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.0000030994415, y: -83}
+  m_AnchoredPosition: {x: 0.0000030994415, y: -98}
   m_SizeDelta: {x: 440, y: 60.1}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1280180786
@@ -17195,7 +17195,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 6, y: 43}
-  m_SizeDelta: {x: 600, y: 430}
+  m_SizeDelta: {x: 550, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1795835620
 MonoBehaviour:
@@ -17219,9 +17219,9 @@ MonoBehaviour:
   inventoryTitle: 'FOODBANK Scene 3: Bridge Sweets/Fats'
   inventoryTitleText: {fileID: 1280180786}
   inventoryTitlePosX: 0
-  inventoryTitlePosY: 132
-  panelSizeX: 600
-  panelSizeY: 430
+  inventoryTitlePosY: 217
+  panelSizeX: 700
+  panelSizeY: 600
 --- !u!114 &1795835621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17289,10 +17289,9 @@ MonoBehaviour:
     itemAttributes: []
   - itemName: lollipop
     itemID: 33
-    itemDesc: Have a lot of bad sugars which can blThey also have a lot of sugar which
-      cause our teeth to fall out.  We are allowed to have these foods sometimes,
-      but not everyday. Eating these types of food too much can make us feel and become
-      sick
+    itemDesc: Have aHave a lot of sugar which cause our teeth to fall out.  We are
+      allowed to have these foods sometimes, but not everyday. Eating these types
+      of food too much can make us feel and become sick.
     itemIcon: {fileID: 21300000, guid: 4e787a5aaae06a9498faf37392d29924, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
@@ -17302,7 +17301,7 @@ MonoBehaviour:
     indexItemInList: 1
     rarity: 0
     itemAttributes: []
-  - itemName: Ice Cream
+  - itemName: icecream
     itemID: 34
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart.. They also have a lot of sugar which cause our teeth
@@ -17317,7 +17316,7 @@ MonoBehaviour:
     indexItemInList: 2
     rarity: 0
     itemAttributes: []
-  - itemName: Pizza
+  - itemName: pizza
     itemID: 89
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
@@ -17361,7 +17360,7 @@ MonoBehaviour:
     indexItemInList: 4
     rarity: 0
     itemAttributes: []
-  - itemName: pies
+  - itemName: pie
     itemID: 93
     itemDesc: Pies have a lot of bad fats which can block the blood from flowing in
       our body and damage our heart. We are allowed to have these foods sometimes,
@@ -17376,7 +17375,7 @@ MonoBehaviour:
     indexItemInList: 4
     rarity: 0
     itemAttributes: []
-  - itemName: Fatty Meat
+  - itemName: fattymeat
     itemID: 88
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
@@ -17391,7 +17390,7 @@ MonoBehaviour:
     indexItemInList: 4
     rarity: 0
     itemAttributes: []
-  - itemName: Burgers
+  - itemName: burger
     itemID: 106
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
@@ -17436,7 +17435,7 @@ MonoBehaviour:
     indexItemInList: 4
     rarity: 0
     itemAttributes: []
-  - itemName: chedder cheese
+  - itemName: chedder
     itemID: 107
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
@@ -17451,7 +17450,7 @@ MonoBehaviour:
     indexItemInList: 4
     rarity: 0
     itemAttributes: []
-  - itemName: Cream
+  - itemName: cream
     itemID: 109
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
@@ -17466,7 +17465,7 @@ MonoBehaviour:
     indexItemInList: 4
     rarity: 0
     itemAttributes: []
-  - itemName: Cheese Crackers
+  - itemName: cheesecrackers
     itemID: 105
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
@@ -17496,7 +17495,7 @@ MonoBehaviour:
     indexItemInList: 4
     rarity: 0
     itemAttributes: []
-  - itemName: Sweet Popcorn
+  - itemName: popcorn
     itemID: 110
     itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
       to have these foods sometimes, but not everyday. Eating these types of food
@@ -17525,7 +17524,7 @@ MonoBehaviour:
     indexItemInList: 4
     rarity: 0
     itemAttributes: []
-  - itemName: Cakes
+  - itemName: cake
     itemID: 112
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart.. They also have a lot of sugar which cause our teeth
@@ -17540,7 +17539,7 @@ MonoBehaviour:
     indexItemInList: 4
     rarity: 0
     itemAttributes: []
-  - itemName: Croissant
+  - itemName: croissant
     itemID: 22
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart.. They also have a lot of sugar which cause our teeth
@@ -17555,7 +17554,7 @@ MonoBehaviour:
     indexItemInList: 4
     rarity: 0
     itemAttributes: []
-  - itemName: Fizzy Drink
+  - itemName: can
     itemID: 113
     itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
       to have these foods sometimes, but not everyday. Eating these types of food
@@ -17569,7 +17568,7 @@ MonoBehaviour:
     indexItemInList: 4
     rarity: 0
     itemAttributes: []
-  - itemName: Juice
+  - itemName: juice
     itemID: 114
     itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
       to have these foods sometimes, but not everyday. Eating these types of food
@@ -17583,7 +17582,7 @@ MonoBehaviour:
     indexItemInList: 4
     rarity: 0
     itemAttributes: []
-  - itemName: Chips
+  - itemName: chips
     itemID: 18
     itemDesc: Have a lot of bad fats which can block the blood from flowing in our
       body and damage our heart. We are allowed to have these foods sometimes, but
@@ -17598,7 +17597,7 @@ MonoBehaviour:
     indexItemInList: 4
     rarity: 0
     itemAttributes: []
-  - itemName: SugarCereals
+  - itemName: cereal
     itemID: 115
     itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
       to have these foods sometimes, but not everyday. Eating these types of food
@@ -17612,7 +17611,7 @@ MonoBehaviour:
     indexItemInList: 4
     rarity: 0
     itemAttributes: []
-  - itemName: Chocolate Cereal
+  - itemName: chocolatecereal
     itemID: 116
     itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
       to have these foods sometimes, but not everyday. Eating these types of food
@@ -19302,7 +19301,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1950383675
 RectTransform:
   m_ObjectHideFlags: 0
