@@ -49,6 +49,7 @@ public class gotobridge2 : MonoBehaviour {
 
         else if (bridge_discussion ==3)
         {
+           
             GameObject.Find("Quickly").GetComponent<Text>().color = Color.white;
             GameObject.Find("Quickly").GetComponent<Text>().text = "You will need to find foods full of protein to mend those wings of yours.";
             GameObject.Find("Ogre_Image").GetComponent<CanvasGroup>().alpha = 0;

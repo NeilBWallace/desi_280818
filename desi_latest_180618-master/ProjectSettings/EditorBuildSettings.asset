@@ -71,8 +71,8 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/magic_glade.unity
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/50d075e4bdcbba84ab69421979d17c47
     guid: 50d075e4bdcbba84ab69421979d17c47
   - enabled: 1
     path: Assets/bridge2.unity
@@ -128,4 +128,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/InventoryMaster/Examples/MagicGladeQuiz.unity
     guid: d09e9429779831d4fbabbc50f6108560
+  - enabled: 1
+    path: Assets/magic_glade.unity
+    guid: bfd1c1b387b640f43997635d30eed4f9
   m_configObjects: {}

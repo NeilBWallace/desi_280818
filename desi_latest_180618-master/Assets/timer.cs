@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class timer : MonoBehaviour {
     Animator anim;                          // Reference to the animator component.
-
+    private AudioSource source;
     public int timeLeft = 180;
     public Text countdownText;
     IEnumerator Wait(float duration)
@@ -15,9 +15,7 @@ public class timer : MonoBehaviour {
     {
 
 
-        //This is a coroutine
-
-
+    
         Debug.Log("Start Wait() function. The time is: " + Time.time);
 
         Debug.Log("Float duration = " + duration);
@@ -62,8 +60,16 @@ public class timer : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         countdownText.text = ("Time Left:" + timeLeft.ToString());
+        //This is a coroutine
+       
+        if ((timeLeft==150) ||(timeLeft == 130) || (timeLeft == 100)||(timeLeft == 70) || (timeLeft == 30))
 
-        if(timeLeft <=0)
+        {
+            source = GetComponent<AudioSource>();
+            source.Play();
+        }
+
+        if (timeLeft <=0)
         {
             StopCoroutine("LoseTime");
             countdownText.text = "Times UP!";

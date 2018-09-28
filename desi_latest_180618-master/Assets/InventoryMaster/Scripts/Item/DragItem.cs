@@ -142,7 +142,7 @@ public class DragItem : MonoBehaviour, IDragHandler, IPointerDownHandler, IEndDr
                             if (inventory.stackable && sameItem && firstItemStack && secondItemStack)
                             {
 
-                     //           GameObject.Find("Tasty_Voice").GetComponent<AudioSource>().Play();
+                            //   GameObject.Find("Tasty_Voice").GetComponent<AudioSource>().Play();
 
 
                                 //if the item does not fit into the other item
@@ -275,51 +275,12 @@ public class DragItem : MonoBehaviour, IDragHandler, IPointerDownHandler, IEndDr
                             fitsIntoStack = (firstItem.itemValue + secondItem.itemValue) <= firstItem.maxStack;
                         //if the item is stackable checking if the firstitemstack and seconditemstack is not full and check if they are the same items
 
-                        if (inventory.stackable && sameItem && firstItemStack && secondItemStack)
+                        //           if (inventory.stackable && sameItem && firstItemStack && secondItemStack)
+                        if (1==0)
                         {
 
 
                         
-
-                            //if the item does not fit into the other item
-                            if (fitsIntoStack && !sameItemRerferenced)
-                            {
-                                secondItem.itemValue = firstItem.itemValue + secondItem.itemValue;
-                                secondItemGameObject.transform.SetParent(newSlot.parent.parent);
-                                Destroy(firstItemGameObject);
-                                secondItemRectTransform.localPosition = Vector3.zero;
-                                if (secondItemGameObject.GetComponent<ConsumeItem>().duplication != null)
-                                {
-                                    GameObject dup = secondItemGameObject.GetComponent<ConsumeItem>().duplication;
-                                    dup.GetComponent<ItemOnObject>().item.itemValue = secondItem.itemValue;
-                                    Inventory.GetComponent<Inventory>().stackableSettings();
-                                    dup.transform.parent.parent.parent.GetComponent<Inventory>().updateItemList();
-                                }
-                            }
-
-                            else
-                            {
-                                //creates the rest of the item
-                                int rest = (firstItem.itemValue + secondItem.itemValue) % firstItem.maxStack;
-
-                                //fill up the other stack and adds the rest to the other stack 
-                                if (!fitsIntoStack && rest > 0)
-                                {
-                                    firstItem.itemValue = firstItem.maxStack;
-                                    secondItem.itemValue = rest;
-
-                                    firstItemGameObject.transform.SetParent(secondItemGameObject.transform.parent);
-                                    secondItemGameObject.transform.SetParent(oldSlot.transform);
-
-                                    firstItemRectTransform.localPosition = Vector3.zero;
-                                    secondItemRectTransform.localPosition = Vector3.zero;
-
-                                    createDuplication(this.gameObject);
-                                    secondItemGameObject.GetComponent<ConsumeItem>().duplication.GetComponent<ItemOnObject>().item = secondItem;
-                                    secondItemGameObject.GetComponent<SplitItem>().inv.stackableSettings();
-
-                                }
-                            }
 
                         }
                         //if does not fit
