@@ -29,9 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Instructions.unity
     guid: 8856eeea5cc589f4c839132bc7eb19e9
-  - enabled: 1
-    path: Assets/Instructions2.unity
-    guid: ce96a33d7a35ce743a543cfc172e19f3
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
@@ -72,8 +72,8 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/50d075e4bdcbba84ab69421979d17c47
-    guid: 50d075e4bdcbba84ab69421979d17c47
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/bridge2.unity
     guid: a77cf81badfd72c4da41a7060922c272
@@ -116,9 +116,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/crossbridge.unity
     guid: a6be1de5fb44e54489ff4b06495ff9d8
-  - enabled: 1
-    path: Assets/test.unity
-    guid: e3cde1dc9bad6574d98551b92312f2f7
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Snow Mountain/Scenes/SnowMountains.unity
     guid: 80a7b5808b43ae245bc2c97ce3cfc017

@@ -8857,7 +8857,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 766d09ac5fd30cf458383f7ec40a81ec, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 76bd4117fa3c525448b9a4447c7453df, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13285,7 +13285,7 @@ MonoBehaviour:
     itemDesc: Our body needs energy foods, to keep us working. They give us fuel to
       run and help us concentrate in class. They also contain fibre to help us poo.Why
       not add fruit for sweetness and vitamins
-    itemIcon: {fileID: 21300000, guid: 766d09ac5fd30cf458383f7ec40a81ec, type: 3}
+    itemIcon: {fileID: 21300000, guid: 76bd4117fa3c525448b9a4447c7453df, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
     itemType: 0
@@ -13561,7 +13561,7 @@ MonoBehaviour:
     itemDesc: Our body needs energy foods, to keep us working. They give us fuel to
       run and help us concentrate in class. They also contain fibre to help us poo.Why
       not add fruit for sweetness and vitamins
-    itemIcon: {fileID: 21300000, guid: 2258c711e66b21749aed8029ca5df029, type: 3}
+    itemIcon: {fileID: 21300000, guid: 3118e0f566f7df8459fd12d2bed2bc5f, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
     itemType: 0

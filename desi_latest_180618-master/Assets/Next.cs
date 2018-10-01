@@ -15,6 +15,7 @@ public class Next : MonoBehaviour {
    
         if (k == "MarketSetup")
         {
+            Debug.Log("market setup" + v);
             Opening_Values.protein_dairy_description[index] =v;
         }
         else if (k == "MagicGladeSetup")
@@ -42,6 +43,7 @@ public class Next : MonoBehaviour {
 
         if (k == "MarketSetup")
         {
+            Debug.Log("market setup name" + v);
             Opening_Values.protein_dairy_name[index] =v;
         }
         else if (k == "MagicGladeSetup")
