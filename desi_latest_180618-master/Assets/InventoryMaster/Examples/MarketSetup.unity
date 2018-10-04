@@ -11107,7 +11107,7 @@ MonoBehaviour:
     itemID: 30
     itemDesc: give us  protein to help  us grow and repair , fibre  so we poo more
       easily, vitamins and minerals  that count towards 1 of your 5 A DAY
-    itemIcon: {fileID: 21300000, guid: 329b4ae7a19bbe048a87c05b76feabb0, type: 3}
+    itemIcon: {fileID: 21300000, guid: 69d971a0d91fa5343a73b8409f5e607d, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
     itemType: 0
