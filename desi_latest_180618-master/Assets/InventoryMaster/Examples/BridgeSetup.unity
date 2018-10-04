@@ -4711,7 +4711,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 0e996ff3c8e43b042820b68162624c1c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a4dd021975337b54f94890b2fd00ebfd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19105,7 +19105,7 @@ MonoBehaviour:
     itemDesc: have a lot of sugar which cause our teeth to fall out.  We are allowed
       to have these foods sometimes, but not everyday. Eating these types of food
       too much can make us feel and become sick.
-    itemIcon: {fileID: 21300000, guid: 0e996ff3c8e43b042820b68162624c1c, type: 3}
+    itemIcon: {fileID: 21300000, guid: a4dd021975337b54f94890b2fd00ebfd, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
     itemType: 0
