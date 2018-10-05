@@ -8,7 +8,6 @@ public class audi : MonoBehaviour {
     public AudioClip alarm;
     private AudioSource source;
     public bool enter;
-   
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("enter");
@@ -18,14 +17,7 @@ public class audi : MonoBehaviour {
       
         if (other.gameObject.CompareTag("Player"))
         {
-
-            allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
-
-            foreach (AudioSource audioS in allAudioSources)
-            {
-                audioS.Stop();
-            }
-
+         
             GameObject.Find("rabbitphilosophy").GetComponent<AudioSource>().Play();
 
 

@@ -23,7 +23,10 @@ public class GoToBridgeQuiz : MonoBehaviour {
             SceneManager.LoadScene("Orchard");
         }
     }
-
+    void Start()
+    {
+        Time.timeScale = 1f;
+    }
     // Update is called once per frame
     void Update () {
         StartCoroutine(GoNextScene());
